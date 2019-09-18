@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="768" height="341.333" viewBox="0 0 768 341.333">
+  <g id="Group_13" data-name="Group 13" transform="translate(-256)">
+    <path id="Rectangle_11" data-name="Rectangle 11" d="M50,0H718a50,50,0,0,1,50,50V341.333a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" transform="translate(256)" fill="#cff5fc"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(242 -1)">
+      <g id="Tilted_Frog" data-name="Tilted Frog" transform="translate(-231.339 -30.478) rotate(11)">
+        <path id="Head" d="M13.847,96.443a53.324,53.324,0,0,1,4.82-39.668A28,28,0,1,1,62.4,27.046q.282,1.052.479,2.1c1.742-.088,3.477-.089,5.2-.007A28,28,0,1,1,112.517,57a53.507,53.507,0,1,1-98.67,39.444Z" transform="translate(354.063 52.946)" fill="#3d9a39"/>
+        <circle id="Right_Cheek" data-name="Right Cheek" cx="8" cy="8" r="8" transform="matrix(0.966, -0.259, 0.259, 0.966, 446, 125.141)" fill="#f59a9a"/>
+        <circle id="Left_Cheek" data-name="Left Cheek" cx="8" cy="8" r="8" transform="matrix(0.966, -0.259, 0.259, 0.966, 373, 125.141)" fill="#f59a9a"/>
+        <g id="Mouth" transform="matrix(0.966, -0.259, 0.259, 0.966, -401.019, -275.511)">
+          <path id="Subtraction_12" data-name="Subtraction 12" d="M72,31H11c0-.166,0-.334,0-.5a30.5,30.5,0,1,1,61,0c0,.164,0,.331,0,.5Z" transform="translate(716.12 656.838) rotate(-164)" fill="#235c20"/>
+          <path id="Intersection_2" data-name="Intersection 2" d="M29.318,38.206A30.32,30.32,0,0,1,18.768,32.79a11.566,11.566,0,0,1,1.395-2.059,11.768,11.768,0,0,1,3.557-2.837,11.96,11.96,0,0,1,4.387-1.3,12.12,12.12,0,0,1,11.841,6.266A11.764,11.764,0,0,1,41.311,37.2a11.592,11.592,0,0,1,.048,1.981,30.282,30.282,0,0,1-12.04-.972Z" transform="translate(646.909 607.193)" fill="#f59a9a"/>
+        </g>
+        <g id="Right_Eye" data-name="Right Eye" transform="matrix(0.966, -0.259, 0.259, 0.966, -261.721, 10.14)">
+          <circle id="Right_Eyeball" data-name="Right Eyeball" cx="24" cy="24" r="24" transform="translate(643 235)" fill="#fff"/>
+          <path id="Right_Pupil" data-name="Right Pupil" d="M12,28A12.005,12.005,0,0,1,1.156,10.855,7,7,0,0,0,13.362,4.076,12,12,0,0,1,12,28Z" transform="translate(655 243)"/>
+        </g>
+        <g id="Left_Eye" data-name="Left Eye" transform="matrix(0.966, -0.259, 0.259, 0.966, -261.721, 10.14)">
+          <circle id="Left_Eyeball" data-name="Left Eyeball" cx="24" cy="24" r="24" transform="translate(585 219)" fill="#fff"/>
+          <path id="Subtraction_4" data-name="Subtraction 4" d="M12,28A12.005,12.005,0,0,1,1.156,10.855,7,7,0,0,0,13.362,4.076,12,12,0,0,1,12,28Z" transform="translate(597 227)"/>
+        </g>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(0 0.469)">
+        <path id="Subtraction_15" data-name="Subtraction 15" d="M-771.811,169.4h0a87.7,87.7,0,0,1-26.382-11.317,87.228,87.228,0,0,1-20.97-18.8,85.229,85.229,0,0,1-13.84-24.6A84.443,84.443,0,0,1-838,85.984a84.173,84.173,0,0,1,6.876-33.469,85.635,85.635,0,0,1,18.752-27.331A87.309,87.309,0,0,1-784.559,6.757,88.276,88.276,0,0,1-750.5,0a88.28,88.28,0,0,1,34.06,6.757,87.312,87.312,0,0,1,27.813,18.427,85.625,85.625,0,0,1,18.752,27.331A84.168,84.168,0,0,1-663,85.984a84.439,84.439,0,0,1-4.995,28.706,85.219,85.219,0,0,1-13.841,24.6,87.218,87.218,0,0,1-20.97,18.8A87.668,87.668,0,0,1-729.19,169.4L-750.5,133.4l-21.31,36.005Z" transform="translate(395.893 -584.527) rotate(-83)" fill="#bdf5bb"/>
+        <text id="Welcome_to_Froggie_Code_Land_" data-name="Welcome to 
+Froggie Code Land!" transform="translate(268.398 163)" fill="#3d9a39" font-size="40" font-family="SpaceMono-Regular, Space Mono"><tspan x="0" y="0">Welcome to </tspan><tspan font-family="SpaceMono-Bold, Space Mono" font-weight="700"><tspan x="0" y="46">Froggie Code Land</tspan><tspan y="46" font-family="SpaceMono-Regular, Space Mono" font-weight="400">!</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

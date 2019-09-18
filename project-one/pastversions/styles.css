@@ -1,0 +1,106 @@
+body {
+  background-color:black;
+    font-family: 'Hepta Slab', serif;
+    color:#CC7E3D;
+    margin:0;
+    padding-top:0;
+}
+
+.container {
+    width:768px;
+    height:1024px;
+    margin: 0 auto;
+    padding:0;
+    background-color:#000000;
+}
+.containertan {
+  width:726px;
+  height:870px;
+  background-color:#EFD6AE;
+
+}
+.box {
+  width:768px;
+  height:300px;
+  margin:0 auto;
+  padding:0;
+  align-content: flex-end;
+  background-color:grey;
+}
+
+.letters {
+display: flex;
+align-items:baseline;
+}
+
+.capitalletter {
+display: flex;
+align-items: baseline;
+}
+
+.author {
+  display: flex;
+  align-items: baseline;
+}
+
+.footerformat {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 325%;
+    border-bottom: solid;
+    margin-top: -50px;
+    margin-bottom:0px;
+
+}
+
+.letterrow {
+  font-size: 165%;
+    border-style: solid;
+}
+
+.textunderrow {
+  font-size: 200%;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+.Antique {
+  display:block;
+  font-weight: 9;
+  font-size: 260%;
+  margin-top: -100px;
+  margin-bottom: -150px;
+  border-bottom: solid;
+}
+
+.textunderantique {
+  font-size: 200%;
+  margin-top: -60px;
+  margin-bottom: -20px;
+}
+
+.Designer {
+  font-weight: 600;
+  font-size:230%
+}
+
+.capitalletter h1 {
+  font-size: 600%;
+  overflow:auto;
+  margin-top: 40px;
+}
+
+#butt button{
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+  background-color: #CC7E3D;
+}
+.abouttheface p{
+  border-left: dashed;
+  font-size: 10%;
+}

@@ -1,0 +1,29 @@
+body {
+  background-color: orange;
+}
+#green-froggie {
+  position: absolute;
+  left: 98px;
+}
+#pro-one {
+  position: relative;
+}
+.rel-green {
+  position: relative;
+}
+#rel-lily-pad {
+  position: relative;
+  bottom: -379px;
+  right: -85px;
+}
+#gold-froggie {
+    position: fixed;
+    top: 70%;
+    right:0px;
+    left: unset;
+    z-index: 5;
+    /* position must be absolute or fixed for the z index to work  */
+}
+#red-froggie {
+  position: static;
+}

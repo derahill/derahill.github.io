@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118.953" height="131.21" viewBox="0 0 118.953 131.21">
+  <g id="Centered_Frog" data-name="Centered Frog" transform="translate(-360.027 -57.845)">
+    <path id="Head" d="M13.847,96.443a53.324,53.324,0,0,1,4.82-39.668A28,28,0,1,1,62.4,27.046q.282,1.052.479,2.1c1.742-.088,3.477-.089,5.2-.007A28,28,0,1,1,112.517,57a53.507,53.507,0,1,1-98.67,39.444Z" transform="translate(354.063 52.946)" fill="#ea3f3f"/>
+    <circle id="Right_Cheek" data-name="Right Cheek" cx="8" cy="8" r="8" transform="matrix(0.966, -0.259, 0.259, 0.966, 446, 125.141)" fill="#f59a9a"/>
+    <circle id="Left_Cheek" data-name="Left Cheek" cx="8" cy="8" r="8" transform="matrix(0.966, -0.259, 0.259, 0.966, 373, 125.141)" fill="#f59a9a"/>
+    <g id="Mouth" transform="matrix(0.966, -0.259, 0.259, 0.966, -401.019, -275.511)">
+      <path id="Subtraction_12" data-name="Subtraction 12" d="M72,31H11c0-.166,0-.334,0-.5a30.5,30.5,0,1,1,61,0c0,.164,0,.331,0,.5Z" transform="translate(716.12 656.838) rotate(-164)" fill="#641616"/>
+      <path id="Intersection_2" data-name="Intersection 2" d="M29.318,38.206A30.32,30.32,0,0,1,18.768,32.79a11.566,11.566,0,0,1,1.395-2.059,11.768,11.768,0,0,1,3.557-2.837,11.96,11.96,0,0,1,4.387-1.3,12.12,12.12,0,0,1,11.841,6.266A11.764,11.764,0,0,1,41.311,37.2a11.592,11.592,0,0,1,.048,1.981,30.282,30.282,0,0,1-12.04-.972Z" transform="translate(646.909 607.193)" fill="#f59a9a"/>
+    </g>
+    <g id="Right_Eye" data-name="Right Eye" transform="matrix(0.966, -0.259, 0.259, 0.966, -261.721, 10.14)">
+      <circle id="Right_Eyeball" data-name="Right Eyeball" cx="24" cy="24" r="24" transform="translate(643 235)" fill="#fff"/>
+      <path id="Right_Pupil" data-name="Right Pupil" d="M12,28A12.005,12.005,0,0,1,1.156,10.855,7,7,0,0,0,13.362,4.076,12,12,0,0,1,12,28Z" transform="translate(655 243)"/>
+    </g>
+    <g id="Left_Eye" data-name="Left Eye" transform="matrix(0.966, -0.259, 0.259, 0.966, -261.721, 10.14)">
+      <circle id="Left_Eyeball" data-name="Left Eyeball" cx="24" cy="24" r="24" transform="translate(585 219)" fill="#fff"/>
+      <path id="Subtraction_4" data-name="Subtraction 4" d="M12,28A12.005,12.005,0,0,1,1.156,10.855,7,7,0,0,0,13.362,4.076,12,12,0,0,1,12,28Z" transform="translate(597 227)"/>
+    </g>
+  </g>
+</svg>
