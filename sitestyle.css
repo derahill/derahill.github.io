@@ -8,10 +8,12 @@
 .sitebody h1 {
 
   font-size: 100px;
+  font-weight: lighter;
   background-color: grey;
   margin: 0;
   padding: 0;
   text-align: center;
+
 }
 
 #onenav {
