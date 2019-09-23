@@ -173,6 +173,14 @@ body {
   margin-top: 79px;
   padding: 0;
 
+
+}
+.letters img {
+  position: absolute;
+    z-index: 99;
+    top: 452px;
+    left: 70px;
+
 }
 
 .capitalletter {
@@ -211,7 +219,7 @@ body {
   /* width: 313px;  */
   width: 363px;
   height:200px;
-  font-size: 900%;
+  font-size: 1000%;
 
   padding: 0;
   margin:0;
@@ -228,7 +236,7 @@ body {
   /* width: 363px;  */
   width: 363px;
   height:200px;
-  font-size: 900%;
+  font-size: 1000%;
 
   padding:0;
   margin:0;
