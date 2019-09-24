@@ -180,12 +180,17 @@ body {
     z-index: 99;
     top: 452px;
     left: 70px;
-    visibility: hidden;
+    visibility: visible;
 }
-.letters img#upper.visible {
-  visibility: visible;
+img.invisible {
+  visibility: hidden;
+}
 
-}
+/* might need the stuff below  */
+/* .letters img#letteranalysis.invisible {
+  visibility: hidden;
+
+} */
 /* do once analysis is complete for lower */
 /* .letters img#lower.visible {
   visibility: visible;

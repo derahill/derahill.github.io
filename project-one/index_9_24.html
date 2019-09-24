@@ -11,7 +11,10 @@
     <!--  <link rel ='styles' href='assets/styles.css'/> -->
       <link rel = "stylesheet"
         type = "text/css"
-        href = "assets/wireframe-styles_9_23.css" />
+        href = "assets/wireframe-styles_9_24.css" />
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="parallax.js/parallax.js"></script>
+        <script src="button.jquery.js"></script>
 </head>
 <div class="dashbordercontainer">
   <div class="container">
@@ -39,9 +42,8 @@
       </section>
 
       <section class="letters">
-        <img id="letteranalysis" src="assets/Group 1.png"
+        <img class= "invisible" id="letteranalysis" src="assets/Group 1.png"
          width="178px" height="125px"
-
         alt="visual analysis of Hepta Slab letter D">
         <!-- width/height is a ratio .7 -->
         <!-- alt tag is what automatically shows up if the image does not render, also for screen readers -->
@@ -49,14 +51,14 @@
             <div class="capitallettera">
               <h1> D</h1>
               <div class="acontainer">
-              <button id="butta"> x </button>
+              <button id="butta" type="button" name="button"> x </button>
              </div>
             </div>
 
             <div class="capitalletterb">
               <h1> d</h1>
               <div class="bcontainer">
-                <button id="buttb">  x </button>
+                <button id="buttb" type="button" name="button">  x </button>
               </div>
             </div>
           </section>
