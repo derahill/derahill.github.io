@@ -1,0 +1,379 @@
+body {
+  padding:0;
+  margin:0 auto;
+  height: 1024px;
+  width:726px;
+  /* vertical-align: middle; */
+  background-color:black;
+    font-family: 'Hepta Slab', serif;
+
+
+    color: #CC7E3D;
+  align-content: space-around;
+
+}
+
+.dashbordercontainer {
+  height:1024px;
+  width: 748px;
+  margin:0;
+  padding:0;
+  border: dashed 3px;
+  justify-content: center;
+  position: absolute;
+}
+.container {
+  margin: 0;
+  width:678px;
+  height:850px;
+  background-color:black;
+  position: relative;
+  left: 11px;
+  bottom: 50px;
+  /* margin-left:auto; */
+  /* margin-right:auto; */
+  /* align-content: center; */
+}
+.containertan {
+  margin: 0;
+  width:726px;
+  height:870px;
+  background-color:#EFD6AE;
+}
+
+.title {
+  margin: auto;
+  text-align: center;
+  height:100px;
+  /* border: solid; */
+  width:100%;
+
+
+  margin: 0px;
+  align-content: center;
+  background-color: ;
+
+}
+.title h1 {
+  font-size:600%;
+  font-weight: bolder;
+  align-self: center;
+
+}
+.letterrow {
+  font-weight: 500;
+  text-align:center;
+
+  font-size: 158%;
+  height:40px;
+  width: auto;
+  /* border-bottom: solid; */
+  border-top: solid 2px;
+  border-color: black;
+
+  padding:0;
+
+  margin:0;
+  margin-bottom:-6px;
+  padding-top: 2px;
+  /* padding may screw up my pixels */
+  /* justify-content: center; */
+  background-color: ;
+
+}
+/* having width and height will separate the object from the other ones? */
+/* justify.content will move around space and stuff*/
+.textunderrow {
+
+  width:auto;
+  height:43px;
+  margin: 0px;
+  padding:0px 0;
+  /* font-size: 300%;
+  text-align: left; */
+  /* margin-top:0;
+  margin-bottom:0; */
+  background-color: ;
+  border-top: solid 2px;
+  border-color: black;
+
+
+}
+.textunderrow h3 {
+  font-weight: 200;
+  font-size: 200%;
+  margin:0;
+  padding:0;
+  padding-left: 10px;
+  padding-top: 2px;
+
+}
+.Antique {
+  font-weight:
+
+  width: 726px;
+  height:106px;
+  margin-top: 0;
+  padding:0;
+
+  background-color: ;
+
+}
+.Antique h3 {
+  font-weight: bold;
+  font-size: 550%;
+  text-align: center;
+  margin:0;
+  padding:0;
+
+
+  /* margin-top: 0px; */
+  /* border-bottom: solid; */
+}
+.textunderantique {
+  width:726px;
+  height:39px;
+  padding-top:105px;
+  margin:0;
+  background-color: ;
+  /* margin-top: 0px;
+  margin-bottom:0px; */
+}
+.textunderantique h3 {
+  font-weight: 200;
+  font-size: 200%;
+  margin:0;
+  padding:0;
+  padding-left: 10px;
+  padding-top: 2px;
+  background-color: ;
+  border-top: solid 1px;
+  border-color: black;
+}
+.Designer {
+
+  width: 726px;
+  height: 77px;
+  margin: 0;
+  padding: 0;
+  padding-left: 30px;
+  font-size:400%;
+  /* margin-top: -30px; */
+  font-weight:600;
+  background-color: ;
+  justify-content: center;
+  border-bottom: solid 1px;
+  border-color: black;
+
+  /* border-bottom: solid; */
+}
+.letters {
+  display:flex;
+  margin: 0;
+  margin-top: 79px;
+  padding: 0;
+
+
+}
+.letters img {
+  position: absolute;
+    z-index: 99;
+    top: 452px;
+    left: 70px;
+    visibility: hidden;
+}
+.letters img#upper.visible {
+  visibility: visible;
+
+}
+/* do once analysis is complete for lower */
+/* .letters img#lower.visible {
+  visibility: visible;
+} */
+.capitalletter {
+
+  padding; 0;
+  margin: 0;
+  margin-top: 110px;
+  background-color: grey;
+  display: flex;
+  align-content: space-around;
+
+}
+
+/* this h1 includes two letters, so the height is halved */
+/* maybe halve the width to flex the button */
+.capitallettera {
+  height:156px;
+  width:263px;
+  /* was 363px */
+  margin:0;
+  padding:0;
+
+  display:flex;
+
+}
+.capitalletterb {
+  height: 156px;
+  width: 263px;
+  margin-top:76px;
+
+  padding:0;
+  padding-right: 38%;
+  display:flex;
+}
+.capitallettera h1{
+  /* width: 313px;  */
+  width: 363px;
+  height:200px;
+  font-size: 1000%;
+
+  padding: 0;
+  margin:0;
+
+  padding-left: 80px;
+  margin-left: 25px;
+  margin-top: 10px;
+
+  background-color: ;
+
+
+}
+.capitalletterb h1{
+  /* width: 363px;  */
+  width: 363px;
+  height:200px;
+  font-size: 1000%;
+
+  padding:0;
+  margin:0;
+  margin-left: 25px;
+  padding-left: 80px;
+
+  background-color: ;
+
+}
+
+.capitalletter bcontainer {
+  height: 32px;
+  width: 181px;
+
+  background-color: #grey;
+    /* was EFD6AE */
+  display: flex;
+
+}
+
+
+#butta {
+  height: 32px;
+  width: 32px;
+  align-self: center;
+  border: 2px solid #CC7E3D;
+  border-radius: 50%;
+  background-color: #EFD6AE;
+  margin-top: 80px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 98;
+}
+#buttb {
+  height: 32px;
+  width: 32px;
+  align-self: center;
+  border: 2px solid #CC7E3D;
+  border-radius: 50%;
+  /* background-color: #EFD6AE; */
+  margin-top: 80px;
+  margin-left:50px;
+  position: relative;
+  z-index: 98;
+}
+
+.abouttheface h1{
+  margin: 0;
+  padding:0;
+  margin-left: 100px;
+  height: 40px;
+  width: 363px;
+  background-color: ;
+  align-content: center;
+  position:relative;
+  top: 30px;
+  justify-content: center;
+}
+
+#ptitle {
+  margin:0px;
+  padding:0px;
+  position: relative;
+  left: 150px;
+  bottom: 20px;
+}
+.abouttheface p {
+  margin: 0;
+  padding:0;
+  margin-left: 100px;
+  height: 40px;
+  width: 363px;
+  background-color: ;
+  align-content: center;
+  position:relative;
+  top: 30px;
+
+  justify-content: center;
+}
+#info1 {
+  margin: 0;
+  height: 150px;
+  width:323px;
+    /* not sure why this is */
+  font-size: 75%;
+  padding:20px;
+  background-color: ;
+  align-content: center;
+  font-weight: lighter;
+  position:relative;
+  top: -15px;
+}
+#info2 {
+  margin: 0;
+  padding:0;
+  margin-top: -20%;
+  height:195px;
+  width:323px;
+    /* again this is a mystery to me */
+  font-size: 75%;
+  font-weight: lighter;
+  padding:20px;
+  background-color: ;
+}
+
+.footer img {
+  height: 50px;
+  width: 50px;
+  /*width: 50px;*/
+}
+.box {
+  width: 726px;
+  height: 131px;
+  margin:0;
+  margin-top: 0px;
+  padding:0;
+  background-color: black;
+  display:flex;
+  align-content: flex-end;
+  color: white;
+  box-sizing: border-box;
+}
+
+.footerformat  {
+  display:flex;
+  font-size: 65%;
+}
+
+
+/* }
+.footerformat {
+  display: flex;
+}*/

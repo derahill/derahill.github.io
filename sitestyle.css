@@ -3,13 +3,15 @@
     margin:0;
     padding:0;
     border: dashed 2px;
+    color: white;
+    background-color: black;
 }
 
 .sitebody h1 {
 
   font-size: 100px;
   font-weight: lighter;
-  background-color: grey;
+  /* background-color: lightblue; */
   margin: 0;
   padding: 0;
   text-align: center;
@@ -18,11 +20,46 @@
 
 #onenav {
   text-align: center;
-  background-color: lightblue;
+  /* background-color: lightblue; */
   margin:0;
   padding:0;
 }
 
+.parallax-window {
+    margin: 0;
+    padding: 0;
+
+    height:400px;
+    background: transparent;
+}
+.parallax-window1 {
+    margin: 0;
+    padding: 0;
+
+    height:400px;
+    background: transparent;
+}
+.parallax-window2 {
+    margin: 0;
+    padding: 0;
+
+    height:400px;
+    background: transparent;
+}
+.parallax-window3 {
+    margin: 0;
+    padding: 0;
+
+    height:400px;
+    background: transparent;
+}
+.parallax-window4 {
+    margin: 0;
+    padding: 0;
+
+    height:400px;
+    background: transparent;
+}
 #onenavbar {
   text-align: center;
   margin:0;
@@ -39,6 +76,7 @@
   background-color: lightgreen;
   margin: 0;
   padding: 0;
+  margin-top: 20px;
 }
 #froglink {
   background-color: lightgreen;
