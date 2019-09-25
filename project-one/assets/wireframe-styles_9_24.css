@@ -5,7 +5,7 @@ body {
   width:726px;
   /* vertical-align: middle; */
   background-color:black;
-    font-family: 'Hepta Slab', serif;
+    font-family: 'hepta slab', serif;
 
 
     color: #CC7E3D;
@@ -55,24 +55,21 @@ body {
 
 }
 .title h1 {
-  font-size:600%;
-  font-weight: bolder;
+  font-size:570%;
+  font-weight: 1000;
   align-self: center;
 
 }
 .letterrow {
-  font-weight: 500;
+  font-weight: 400;
   text-align:center;
-
   font-size: 158%;
   height:40px;
   width: auto;
   /* border-bottom: solid; */
   border-top: solid 2px;
   border-color: black;
-
   padding:0;
-
   margin:0;
   margin-bottom:-6px;
   padding-top: 2px;
@@ -100,7 +97,7 @@ body {
 
 }
 .textunderrow h3 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 200%;
   margin:0;
   padding:0;
@@ -109,7 +106,7 @@ body {
 
 }
 .Antique {
-  font-weight:
+
 
   width: 726px;
   height:106px;
@@ -120,7 +117,7 @@ body {
 
 }
 .Antique h3 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 550%;
   text-align: center;
   margin:0;
@@ -140,7 +137,7 @@ body {
   margin-bottom:0px; */
 }
 .textunderantique h3 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 200%;
   margin:0;
   padding:0;
@@ -156,10 +153,10 @@ body {
   height: 77px;
   margin: 0;
   padding: 0;
-  padding-left: 30px;
-  font-size:400%;
+  padding-left: 10px;
+  font-size:420%;
   /* margin-top: -30px; */
-  font-weight:600;
+  font-weight:700;
   background-color: ;
   justify-content: center;
   border-bottom: solid 1px;
