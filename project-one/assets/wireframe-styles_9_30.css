@@ -355,6 +355,8 @@ img.invisible {
   position: relative;
   top: 30px;
   justify-content: center;
+  font-weight:400;
+  color: black;
 }
 
 #ptitle {
@@ -371,11 +373,13 @@ img.invisible {
   margin-left: 100px;
   height: 40px;
   width: 363px;
+  color: black;
   background-color: ;
   align-content: center;
   position: relative;
   top: 30px;
   justify-content: center;
+
 }
 
 #info1 {
