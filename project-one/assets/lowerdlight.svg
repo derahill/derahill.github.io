@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128.5" height="164.42" viewBox="0 0 128.5 164.42">
+  <g id="lowerdlight" transform="translate(-234 -652.58)">
+    <path id="Path_16" data-name="Path 16" d="M31,0H0" transform="translate(301.5 663.5)" fill="none" stroke="#5d0101" stroke-width="1" stroke-dasharray="3 1" opacity="0.8"/>
+    <path id="Path_14" data-name="Path 14" d="M1,150,0,0" transform="translate(331.5 663.5)" fill="none" stroke="#5d0101" stroke-width="1" stroke-dasharray="1 1" opacity="0.8"/>
+    <path id="Path_13" data-name="Path 13" d="M1,87,0,0" transform="translate(243.5 729.5)" fill="none" stroke="#5d0101" stroke-width="1" stroke-dasharray="1 1" opacity="0.8"/>
+    <line id="Line_63" data-name="Line 63" x1="1" y1="87" transform="translate(234.5 729.5)" fill="none" stroke="#5d0101" stroke-width="1" stroke-dasharray="1 1" opacity="0.8"/>
+    <line id="Line_30" data-name="Line 30" x2="127" transform="translate(235.5 816.5)" fill="none" stroke="#5d0101" stroke-width="1" stroke-dasharray="3 1" opacity="0.8"/>
+    <path id="Path_15" data-name="Path 15" d="M0,0H29" transform="translate(333.5 813.5)" fill="none" stroke="#7a2c25" stroke-width="1" stroke-dasharray="3 1"/>
+    <line id="Line_45" data-name="Line 45" x1="56" y1="155" transform="translate(302.5 654.5)" opacity="0.8" stroke="#5d0101" stroke-linecap="round" stroke-width="3" stroke-dasharray="0 10" fill="none"/>
+  </g>
+</svg>
