@@ -12,7 +12,7 @@ body {
 /* generally this style sheet is going from top to bottom of the webpage */
 .dashbordercontainer {
   height: 1024px;
-  width: 748px;
+  width: 768px;
   margin: 0;
   padding: 0;
   border: 3px;
@@ -29,8 +29,8 @@ body {
   height: 850px;
   background-color: black;
   position: relative;
-  left: 8px;
-  bottom: 50px;
+  left: 18px;
+  bottom: 45px;
 }
 
 .containertan {
@@ -377,7 +377,7 @@ img.invisible {
 }
 
 .footer img {
-  height: 50px;
+    height: 50px;
   width: 50px;
   /*width: 50px;*/
   position: relative;
@@ -394,6 +394,8 @@ img.invisible {
   box-sizing: border-box;
   position: relative;
   left: 15px;
+
+
 }
 
 /* entire footer in a box */
