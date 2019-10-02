@@ -4,7 +4,7 @@ body {
   height: 1024px;
   width: 726px;
   /* vertical-align: middle; */
-  background-color: white;
+  background-color: #312700;
   font-family: 'hepta slab', serif;
   color: #CC7E3D;
   align-content: space-around;
@@ -15,7 +15,8 @@ body {
   width: 748px;
   margin: 0;
   padding: 0;
-  border: dashed 3px;
+  border: 3px;
+  border-style: solid dotted;
   justify-content: center;
   position: absolute;
   box-sizing: border-box;
@@ -65,6 +66,8 @@ body {
   font-size: 158%;
   height: 40px;
   width: auto;
+  position: relative;
+  bottom: 2px;
   /* border-bottom: solid; */
   border-top: solid 2px;
   border-color: black;
@@ -75,7 +78,7 @@ body {
   padding-top: 2px;
   /* padding may screw up my pixels */
   /* justify-content: center; */
-  background-color: ;
+
 }
 
 /* having width and height will separate the object from the other ones? */
@@ -93,6 +96,7 @@ body {
   border-top: solid 2px;
   border-color: black;
   box-sizing: border-box;
+
 }
 
 .textunderrow h3 {
@@ -118,6 +122,8 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  position: relative;
+  bottom: 6px;
   /* margin-top: 0px; */
   /* border-bottom: solid; */
 }
@@ -356,14 +362,15 @@ img.invisible {
   top: 30px;
   justify-content: center;
   font-weight:400;
-  color: black;
+  color: #CC7E3D;
 }
 
 #ptitle {
+  font-weight: bold;
   margin: 0px;
   padding: 0px;
   position: relative;
-  left: 50px;
+  left: 35px;
   bottom: 20px;
 }
 
@@ -385,17 +392,19 @@ img.invisible {
 #info1 {
   margin: 0;
   height: 150px;
-  width: 290px;
+  width: 300px;
   /* not sure why this is */
   font-size: 75%;
+
   padding:0;
   padding-top:20px;
   padding-left: 20px;
   background-color: ;
   align-content: center;
-  font-weight: lighter;
+  font-weight: 400;
   position: relative;
   top: -15px;
+  left: 15px;
 }
 
 #info2 {
@@ -406,12 +415,13 @@ img.invisible {
   padding-left:20px;
   margin-top:0;
   height: 195px;
-  width: 290px;
-  position:absolute;
-  top: 160px;
+  width: 300px;
+  position:relative;
+  top: -15px;
+  left: 15px;
   /* again this is a mystery to me */
   font-size: 75%;
-  font-weight: lighter;
+  font-weight: 400;
 
 
   background-color: ;
@@ -423,6 +433,7 @@ img.invisible {
   /*width: 50px;*/
   position: relative;
   border-radius: 50%;
+
 }
 
 #myface {
@@ -432,6 +443,8 @@ img.invisible {
   border: solid 2px;
   border-color: #CC7E3D;
   box-sizing: border-box;
+  position: relative;
+  left: 15px;
 
 }
 .box {
@@ -453,32 +466,45 @@ img.invisible {
 }
 
 .author h3 {
-  font-weight: 100;
+  font-weight: 200;
   font-size:70%;
   margin:0;
   padding:0;
   padding-top:30px;
   padding-left: 10px;
+  position: relative;
+  left: 20px;
+  top: 4px;
+
 }
 .author h4 {
-  font-weight: 100;
+  font-weight: 200;
   font-size:70%;
   margin:0;
   padding:0;
   padding-top:20px;
   padding-left: 10px;
+  position: relative;
+  left: 20px;
+  bottom: 11px;
 }
 .author h5 {
   font-weight: 100;
-  font-size:70%;
+  font-size:60%;
   margin:0;
   padding:0;
-  padding-top:40px;
-  padding-left: 10px;
+  position: relative;
+  left: 31px;
+  bottom: 6px;
 
 }
 #References {
-  font-size: 80%;
+  font-size: 70%;
+  font-weight: 300;
+  width: 400px;
+  position: relative;
+  left: 40px;
+
 
 }
 .button {
