@@ -3,13 +3,13 @@ body {
   margin: 0 auto;
   height: 1024px;
   width: 726px;
-  /* vertical-align: middle; */
   background-color: #312700;
   font-family: 'hepta slab', serif;
   color: #CC7E3D;
   align-content: space-around;
 }
 
+/* generally this style sheet is going from top to bottom of the webpage */
 .dashbordercontainer {
   height: 1024px;
   width: 748px;
@@ -31,9 +31,6 @@ body {
   position: relative;
   left: 8px;
   bottom: 50px;
-  /* margin-left:auto; */
-  /* margin-right:auto; */
-  /* align-content: center; */
 }
 
 .containertan {
@@ -68,7 +65,6 @@ body {
   width: auto;
   position: relative;
   bottom: 2px;
-  /* border-bottom: solid; */
   border-top: solid 2px;
   border-color: black;
   box-sizing: border-box;
@@ -76,11 +72,7 @@ body {
   margin: 0;
   margin-bottom: -6px;
   padding-top: 2px;
-  /* padding may screw up my pixels */
-  /* justify-content: center; */
-
 }
-
 /* having width and height will separate the object from the other ones? */
 /* justify.content will move around space and stuff*/
 .textunderrow {
@@ -88,15 +80,10 @@ body {
   height: 43px;
   margin: 0px;
   padding: 0px 0;
-  /* font-size: 300%;
-  text-align: left; */
-  /* margin-top:0;
-  margin-bottom:0; */
   background-color: ;
   border-top: solid 2px;
   border-color: black;
   box-sizing: border-box;
-
 }
 
 .textunderrow h3 {
@@ -124,8 +111,6 @@ body {
   padding: 0;
   position: relative;
   bottom: 6px;
-  /* margin-top: 0px; */
-  /* border-bottom: solid; */
 }
 
 .textunderantique {
@@ -134,8 +119,6 @@ body {
   padding-top: 105px;
   margin: 0;
   background-color: ;
-  /* margin-top: 0px;
-  margin-bottom:0px; */
 }
 
 .textunderantique h3 {
@@ -157,13 +140,11 @@ body {
   padding: 0;
   padding-left: 10px;
   font-size: 420%;
-  /* margin-top: -30px; */
   font-weight: 700;
   background-color: ;
   justify-content: center;
   border-bottom: solid 1px;
   border-color: black;
-  /* border-bottom: solid; */
 }
 
 .letters {
@@ -175,20 +156,12 @@ body {
   position: relative;
   left: -370px;
 }
-/*
-.letters img  {
-
-  position: absolute;
-  z-index: 99;
-  top: 46px;
-  left: 109px;
-  visibility: visible;
-
-} */
+/* the following ids edit the visual analyses to align them correctly */
 #capletgroup {
   position: relative;
   right: 108px;
 }
+
 #letteranalysis.letter1 {
   position: relative;
   z-index: 99;
@@ -204,6 +177,7 @@ body {
   left: 339px;
   visibility: invisible;
 }
+
 #letteranalysis2.letter3 {
   position: relative;
   z-index: 100;
@@ -211,6 +185,7 @@ body {
   left: 218px;
   visible: invisible;
 }
+
 #letteranalysis3.letter4 {
   position: relative;
   z-index:100;
@@ -218,22 +193,13 @@ body {
   left:110px;
   visible: invisible;
 }
+
 img.invisible {
   visibility: hidden;
 }
 
-/* might need the stuff below  */
-/* .letters img#letteranalysis.invisible {
-  visibility: hidden;
-
-} */
-/* do once analysis is complete for lower */
-/* .letters img#lower.visible {
-  visibility: visible;
-} */
 .capitalletter {
-  padding;
-  0;
+  padding: 0;
   margin: 0;
   margin-top: 110px;
   background-color: grey;
@@ -241,12 +207,9 @@ img.invisible {
   align-content: space-around;
 }
 
-/* this h1 includes two letters, so the height is halved */
-/* maybe halve the width to flex the button */
 .capitallettera {
   height: 156px;
   width: 263px;
-  /* was 363px */
   margin: 0;
   padding: 0;
   display: flex;
@@ -259,11 +222,9 @@ img.invisible {
   padding: 0;
   padding-right: 38%;
   display: flex;
-
 }
 
 .capitallettera h1 {
-  /* width: 313px;  */
   width: 363px;
   height: 200px;
   font-size: 1000%;
@@ -276,7 +237,6 @@ img.invisible {
 }
 
 .capitalletterb h1 {
-  /* width: 363px;  */
   width: 363px;
   height: 200px;
   font-size: 1000%;
@@ -291,8 +251,6 @@ img.invisible {
   height: 32px;
   width: 181px;
   background-color: #grey;
-  /* was EFD6AE */
-
   display: flex;
 }
 
@@ -306,8 +264,6 @@ img.invisible {
   margin-top: 80px;
   margin-left: 30px;
   position: relative;
-
-
   z-index: 98;
 }
 
@@ -335,7 +291,6 @@ img.invisible {
   margin-left: -32px;
   position: relative;
   z-index: 98;
-
 }
 
 #butt2 {
@@ -386,16 +341,13 @@ img.invisible {
   position: relative;
   top: 30px;
   justify-content: center;
-
 }
 
 #info1 {
   margin: 0;
   height: 150px;
   width: 300px;
-  /* not sure why this is */
   font-size: 75%;
-
   padding:0;
   padding-top:20px;
   padding-left: 20px;
@@ -419,11 +371,8 @@ img.invisible {
   position:relative;
   top: -15px;
   left: 15px;
-  /* again this is a mystery to me */
   font-size: 75%;
   font-weight: 400;
-
-
   background-color: ;
 }
 
@@ -433,9 +382,9 @@ img.invisible {
   /*width: 50px;*/
   position: relative;
   border-radius: 50%;
-
 }
 
+/* added this because was having issues with .footer img */
 #myface {
   border-radius: 50%;
   margin: 0;
@@ -445,8 +394,9 @@ img.invisible {
   box-sizing: border-box;
   position: relative;
   left: 15px;
-
 }
+
+/* entire footer in a box */
 .box {
   width: 726px;
   height: 131px;
@@ -464,7 +414,7 @@ img.invisible {
 .footerformat {
   display: flex;
 }
-
+/* Daniel rahill */
 .author h3 {
   font-weight: 200;
   font-size:70%;
@@ -475,8 +425,8 @@ img.invisible {
   position: relative;
   left: 20px;
   top: 4px;
-
 }
+/* university of notre dame */
 .author h4 {
   font-weight: 200;
   font-size:70%;
@@ -488,6 +438,7 @@ img.invisible {
   left: 20px;
   bottom: 11px;
 }
+/* class of 2020 */
 .author h5 {
   font-weight: 100;
   font-size:60%;
@@ -496,16 +447,32 @@ img.invisible {
   position: relative;
   left: 31px;
   bottom: 6px;
-
 }
+
 #References {
   font-size: 70%;
   font-weight: 300;
   width: 400px;
   position: relative;
   left: 40px;
+}
+/* unvisited link */
+a:link {
+  color: #CC7E3D;
+}
 
+/* visited link */
+a:visited {
+  color: black;
+}
 
+/* mouse over link */
+a:hover {
+  font-weight: bold;
+}
+/* selected link */
+a:active {
+  color: red;
 }
 .button {
   background-color: #CC7E3D;
@@ -516,17 +483,3 @@ img.invisible {
 .upperdstandard {
   font-weight: 600;
 }
-
-/* #upperdstandard,
-#lowerdstandard {
-    font-weight: 400;
-}
-
-#upperdbolder,
-#lowerdbolder {
-  font-weight: 700;
-} */
-/* }
-.footerformat {
-  display: flex;
-}*/
