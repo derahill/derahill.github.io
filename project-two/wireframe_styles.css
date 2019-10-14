@@ -1,0 +1,82 @@
+body {
+  padding:0;
+  margin:0 auto;
+  width:726px;
+  /*
+  vertical-align: middle;
+  */
+  background-color:black;
+  /* font-family: serif; */
+  /* color: white; */
+  font-family: serif;
+  color: white;
+  align-content: space-around;
+}
+
+.container {
+  /* width: 768px;
+  height: 280px;
+  background-color: tan; */
+}
+
+.parallax-window {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    /* z-index: 99; */
+    height:900px;
+    width:720px;
+    background: transparent;
+}
+.parallax-window1 {
+  margin:0;
+  padding: 0;
+  padding-right: 726px;
+  /* width: 80px; */
+  height: 3500px;
+    z-index: -99;
+    position: relative;
+    background: transparent;
+}
+
+#title {
+  margin: 0;
+  padding: 0;
+  margin-top: 50px;
+  margin-left: 10px;
+  position: absolute;
+  /* bottom: 500px;
+  left: 30px; */
+  font-size: 400%;
+  background-color: blue;
+  width: 700px;
+  height: 200px;
+}
+
+#entername {
+  background-color: green;
+  height: 68px;
+  width: 384px;
+  margin-top: 400px;
+  margin-left: 150px;
+  position: absolute;
+  /* left: 250px; */
+}
+
+#inputname {
+  background-color: orange;
+  height: 68px;
+  width: 260px;
+  margin-top: 470px;
+  margin-left:210px;
+  position: absolute;
+
+}
+#butta {
+  height: 100px;
+  width: 100px;
+  margin-top: 800px;
+  margin-left: 300px;
+  background-color: red;
+  position: absolute: absolute;
+}
