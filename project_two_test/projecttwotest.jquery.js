@@ -1,5 +1,5 @@
-$('.parallax-window').parallax({imageSrc: 'darkskybackground1.png'});
-$('.parallax-window1').parallax({imageSrc: 'darkskybackground1.png'});
+$('.parallax-window2').parallax({imageSrc: 'project_two_test/assets/darksky1.png'});
+// $('.parallax-window2').parallax({imageSrc: 'project_two_test/darksky1.png'});
 
 
 

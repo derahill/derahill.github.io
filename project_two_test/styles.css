@@ -24,15 +24,18 @@ body {
   box-shadow: 0 0 10px 2px;
   position: absolute;
 }
-.parallax-window {
-  visibility: visible;
-  /* width: 80px; */
-  position: relative;
+.parallax-window2 {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  height:400px;
   background: transparent;
 }
 .parallax-window1 {
-  position: absolute;
-  /* z-index: 99; */
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  height:400px;
   background: transparent;
 }
 .btn-grid {
