@@ -1,0 +1,56 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+
+}
+
+body {
+  padding:0;
+  margin:0;
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  /* background-color:#333; */
+}
+
+.container {
+  width:500px;
+  max-width: 80%;
+  background-color: white;
+  padding: 10px;
+  /* border-radius: 5px; */
+  box-shadow: 0 0 10px 2px;
+  position: absolute;
+}
+.parallax-window {
+  visibility: visible;
+  /* width: 80px; */
+  position: relative;
+  background: transparent;
+}
+.parallax-window1 {
+  position: absolute;
+  /* z-index: 99; */
+  background: transparent;
+}
+.btn-grid {
+  display: flex;
+  margin-top: 300px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 50%;
+  padding: 25px 10px;
+  color: black;
+  outline: none;
+  margin: 20px;
+}
+.btn:hover {
+  background-color: #333;
+}
