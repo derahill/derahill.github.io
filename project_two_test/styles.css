@@ -18,26 +18,36 @@ body {
 .container {
   width:500px;
   max-width: 80%;
-  background-color: white;
+  background-color: #DF9DB5;
   padding: 10px;
   /* border-radius: 5px; */
   box-shadow: 0 0 10px 2px;
   position: absolute;
+  color: #0F0F3E;
+  opacity: .8;
+  font-family: acumin-pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+}
+.container #text {
+  margin: 20px;
+  margin-bottom: -120px;
 }
 .parallax-window2 {
   margin: 0;
   padding: 0;
   overflow: visible;
-  height:400px;
+  height:1000px;
+  width: 100%;
   background: transparent;
 }
-.parallax-window1 {
+/* .parallax-window1 {
   margin: 0;
   padding: 0;
   overflow: visible;
   height:400px;
   background: transparent;
-}
+} */
 .btn-grid {
   display: flex;
   margin-top: 300px;
@@ -45,15 +55,39 @@ body {
   justify-content: center;
 }
 
+
+    /* background: url("knifenounproject.png") 10px 50px; */
+
 .btn {
-  background-color: white;
-  border: 1px solid blue;
+  /* background-color:red; */
+  width: 80px;
+  height: 80px;
+  border: 1px  #0F0F3E;
   border-radius: 50%;
-  padding: 25px 10px;
+  /* padding: 25px 10px; */
   color: black;
   outline: none;
   margin: 20px;
+  image-resolution: 300%;
+}
+/*  */
+.button1 {
+  background-color: yellow;
+}
+.green {
+
 }
 .btn:hover {
-  background-color: #333;
+    background-color: #7C7C7C;
+  box-shadow: 0 0 10px 2px #0F0F3E;
 }
+
+/* .btn {
+    background: url("knifenounproject.png");
+} */
+}
+/*
+#gold:hover {
+  background-color: #7C7C7C;
+box-shadow: 0 0 10px 2px #0F0F3E;
+} */
