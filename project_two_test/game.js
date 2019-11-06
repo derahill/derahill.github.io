@@ -11,6 +11,7 @@ const optionButtonsElement = document.getElementById('option-buttons')
 // var str_counter_1 = count++;
 // // counter for bad survival choices
 // var str_counter_2 = count++;
+// var hope = document.getElementById("btn");
 
 function startGame() {
   state = {}
@@ -54,7 +55,32 @@ function showTextNode(textNodeIndex) {
       optionButtonsElement.appendChild(button)
     }
 
+
   })
+  //
+  // var comhope = window.getComputedStyle(element, null);
+  // hope.addEventListener("click",function(){
+  //     if(showTextNode(3)) {
+  //         // toggle = true;
+  //         hope.style.border = "10px solid #FF0000";
+  //         hope.style.backgroundColor = "#AA3030";
+  //     } else {
+  //         // toggle = false;
+  //         hope.style.border = "10px solid #9676E8";
+  //         hope.style.backgroundColor = "#B299F2";
+  //     }
+  // })
+  var col=document.getElementById("btn");
+// left off with this, idk why its not working, but its a variable that gets the css class of the button w the tag, but cant change color.
+  // var hope = document.getElementsByClassName('btn');
+  col.style.backgroundColor = 'blue'; //this for some reason has to be one for the buttons to appear
+  // button.addEventListener('click', () => selectOption(option))
+  if (showTextNode(2)){
+    col.classList.add('button1');
+
+    // document.button.style.background = blue;
+    // col.Element.style.backgroundColor="#f47121";
+  }
 }
 
 function showOption(option) {
@@ -76,7 +102,6 @@ var hasfood = false;
 const textNodes = [
   {
     id: 1,
-
     // hasfood = false,
     text: "Night 1: \n \n You've found yourself abandoned and alone in a foreign place, surrounded only by nature and beautiful mountain landscapes. \n You don't know where you are and what you'll find in the nights to come. All you know is that you must survive. \n You're having trouble trying to sleep - so you walk around under the stars. What do you find around you? Keep in mind - your decisions now are crucial to surviving in the wilderness. Choose wisely what you need most.",
     options: [
@@ -85,6 +110,7 @@ const textNodes = [
         image: 'assets/knifenounproject.png', //not working:/
         setState: { Water: true },
         nextText: 2
+
         // counter1 +- 1;
 
       },
