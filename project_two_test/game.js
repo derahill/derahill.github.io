@@ -151,7 +151,7 @@ var textNodes = [
 {
   id: 36,
   timeofday: "night",
-  text: "Lorem Ipsum \n \n \n A text-based survival game to teach basic survival skills",
+  text: "A text-based survival game to teach basic survival skills",
   options: [
     {
       text: 'Restart',
@@ -696,7 +696,7 @@ var textNodes = [
     options: [
       {
         text: "Fire",
-        nextText: 42,
+        nextText: 49,
       },
       {
         text: "Mirror SOS",
@@ -810,7 +810,7 @@ var textNodes = [
     ]
   },
   {
-    id: 42,
+    id: 49,
     text: "DAY FOUR \n \n You're feeling anxious and desperate. Should you burn one big fire, three small fires in a triange, or burn the forest down to attract rescue attention?",
     options: [
       {
