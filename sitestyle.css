@@ -102,9 +102,10 @@
   margin:0;
 }
 
-#aone, #atwo, #athree, #afour {
+#aone, #atwo, #athree, #afour, #plain, #blog {
   padding: 60px;
 }
+
 
 a:link {
   color: white;
