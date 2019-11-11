@@ -95,7 +95,7 @@ function add5() {
 
 function startGame() {
   state = {}
-  showTextNode(36)
+  showTextNode(1)
 
 
 }
@@ -922,7 +922,7 @@ var textNodes = [
   },
   {
     id: 43,
-    text: "DAY FOUR \n \n Thanks to your flashlight from your first night in the forest, you can use the reflectiveness and light to signal SOS to the sky! Within a couple hours, rescuers find you.",
+    text: "DAY FOUR \n \n Thanks to your flashlight from your first night in the forest, you can use the reflectiveness and light to signal SOS to the sky! Within a couple hours, rescuers find you. \n \n \n Thanks for playing!",
     // https://outdoors.stackexchange.com/questions/265/how-can-i-signal-for-help-in-the-wilderness
     options: [
       {
