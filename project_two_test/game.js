@@ -2,6 +2,7 @@ const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 const optionsdictionary = {
   "Start Game": {value: 0, color:"#DF9DB5", backgroundColor:"#4B9C55", href:"index2.html"},
+  "Restart": {value: 0, color:"#4B9C55", backgroundColor:"#4B9C55"},
   "Author": {value: 0, color:"#DF9DB5", backgroundColor:"#4B9C55"},
   "Water": {value: 1, color:"#4B9C55", backgroundColor:"#4B9C55",  opacity: '.9'},
   "Knife": {value: 3, color:"#BC3C3F"},
@@ -673,6 +674,7 @@ var textNodes = [
   },
   {
     id: 35,
+    timeofday: "day",
     text: "DAY FOUR \n \n What direction should you wander?",
     options: [
       {
@@ -696,6 +698,7 @@ var textNodes = [
   },
   {
     id: 37,
+    timeofday: "day",
     text: "DAY FOUR \n \n What kind of signal?",
     options: [
       {
@@ -715,6 +718,7 @@ var textNodes = [
   },
   {
     id: 38,
+    timeofday: "day",
     text: "DAY SIX \n \n Do you want to leave ground markers?",
     options: [
       {
@@ -729,6 +733,7 @@ var textNodes = [
   },
   {
     id: 39,
+    timeofday: "day",
     text: "DAY TWELVE \n \n After many, many days of wandering the forest, a rescue team had managed to find your ground markers and track you down. You've been rescued from the forest. ",
     options: [
       {
@@ -739,6 +744,7 @@ var textNodes = [
   },
   {
     id: 40,
+    timeofday: "day",
     text: "DAY SEVEN \n \n Where should you wander?",
     options: [
       {
@@ -761,6 +767,7 @@ var textNodes = [
   },
   {
     id: 41,
+    timeofday: "day",
     text: "DAY EIGHT \n \n Where should you wander?",
     options: [
       {
@@ -783,28 +790,30 @@ var textNodes = [
   },
   {
     id: 42,
+    timeofday: "day",
     text: "DAY NINE \n \n Where should you wander?",
     options: [
       {
         text: "North",
-        nextText: 41,
+        nextText: 50,
       },
       {
         text: "South",
-        nextText: 41,
+        nextText: 50,
       },
       {
         text: "East",
-        nextText: 41,
+        nextText:50,
       },
       {
         text: "West",
-        nextText: 41,
+        nextText: 50,
       }
     ]
   },
   {
-    id: 41,
+    id: 50,
+    timeofday: "day",
     text: "DAY TEN \n \n You should have left ground markers behind you...you're lost and have succumbed to the forest.",
     options: [
       {
@@ -815,6 +824,7 @@ var textNodes = [
   },
   {
     id: 49,
+    timeofday: "day",
     text: "DAY FOUR \n \n You're feeling anxious and desperate. Should you burn one big fire, three small fires in a triange, or burn the forest down to attract rescue attention?",
     options: [
       {
@@ -833,6 +843,7 @@ var textNodes = [
   },
   {
     id: 43,
+    timeofday: "day",
     text: "DAY FOUR \n \n Thanks to your flashlight from your first night in the forest, you can use the reflectiveness and light to signal SOS to the sky! Within a couple hours, rescuers find you. \n \n \n Thanks for playing!",
     // https://outdoors.stackexchange.com/questions/265/how-can-i-signal-for-help-in-the-wilderness
     options: [
@@ -844,6 +855,7 @@ var textNodes = [
   },
   {
     id: 44,
+    timeofday: "day",
     text: "What type of ground marker should you use to signal for help? An SOS drawn on the ground, HELP, or marking trees?",
     options: [
       {
@@ -862,6 +874,7 @@ var textNodes = [
   },
   {
     id: 45,
+    timeofday: "day",
     text: "DAY SIX \n \n After two days with the big fire going, rescuers finally see your smoke signal and locate your position. You've escaped the forest. Note however, that the international signal for in need of rescue to planes is three small fires positioned in a triangle. \n \n Thanks for playing!",
     options: [
       {
@@ -872,6 +885,7 @@ var textNodes = [
   },
   {
     id: 46,
+    timeofday: "day",
     text: "DAY FIVE \n \n Within one day of lighting your three small fires, rescuers notice this international help signal from the sky and locate your position. You've escaped from the forest. \n \n Thanks for playing!",
     options: [
       {
@@ -882,6 +896,7 @@ var textNodes = [
   },
   {
     id: 47,
+    timeofday: "day",
     text: "DAY FOUR \n \n You perished in the forest fire",
     options: [
       {
@@ -892,6 +907,7 @@ var textNodes = [
   },
   {
     id: 48,
+    timeofday: "day",
     text: "DAY 12 \n \n Within a week of writing an international signal for help on the ground, rescuers were able to locate your position. You've barely escaped the forest. \n \n Thanks for playing!",
     options: [
       {
