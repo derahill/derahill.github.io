@@ -1,51 +1,51 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 const optionsdictionary = {
-  "Start Game": {value: 0, color:"#DF9DB5", backgroundColor:"#DF9DB5", href:"index2.html"},
-  "Author": {value: 0, color:"#DF9DB5", backgroundColor:"#DF9DB5"},
-  "Water": {value: 1, color:"#2C5C32", backgroundColor:"#DF9DB5",  opacity: '.9'},
+  "Start Game": {value: 0, color:"#DF9DB5", backgroundColor:"#4B9C55", href:"index2.html"},
+  "Author": {value: 0, color:"#DF9DB5", backgroundColor:"#4B9C55"},
+  "Water": {value: 1, color:"#4B9C55", backgroundColor:"#4B9C55",  opacity: '.9'},
   "Knife": {value: 3, color:"#BC3C3F"},
-  "Apples": {value: 1, color:"#2C5C32"},
+  "Apples": {value: 1, color:"#4B9C55"},
   "Torch": {value: 3, color:"#EFCE57"},
-  "Run": {value: 1, color:"#2C5C32", backgroundColor:"#2C5C32"},
-  "Hide": {value: 3, color:"#2C5C32"},
+  "Run": {value: 1, color:"#4B9C55", backgroundColor:"#4B9C55"},
+  "Hide": {value: 3, color:"#4B9C55"},
   "Fight": {value: 5, color:"#BC3C3F"},
-  "Continue": {color: "#2C5C32", backgroundColor:"#2C5C32"},
+  "Continue": {color: "#4B9C55", backgroundColor:"#4B9C55"},
   "Return": {color: "#BC3C3F", backgroundColor:"#BC3C3F"},
   "Scare": {value: 3, color:"#BC3C3F", backgroundColor:"#DF9DB5"},
   "Escape": {value: 1, color:"#BC3C3F"},
-  "Bushes": {value: 5, color:"#E6CF7E", backgroundColor:"#2C5C32"},
-  "Rocks": {value: 1, color:"#E6CF7E"},
-  "Tree": {value: 1, color:"#E6CF7E"},
-  "North": {value: 1, color:"#2C5C32", backgroundColor:"#2C5C32"},
-  "South": {value: 3, color:"#2C5C32"},
-  "East": {value: 1, color:"#2C5C32"},
+  "Bushes": {value: 5, color:"#EFCE57", backgroundColor:"#4B9C55"},
+  "Rocks": {value: 1, color:"#EFCE57"},
+  "Tree": {value: 1, color:"#EFCE57"},
+  "North": {value: 1, color:"#4B9C55", backgroundColor:"#4B9C55"},
+  "South": {value: 3, color:"#4B9C55"},
+  "East": {value: 1, color:"#4B9C55"},
   "West": {value: 3, color:"#BC3C3F"},
-  "Grass": {value: 1, color:"#EFCE57", backgroundColor:"#2C5C32"},
-  "Hill": {value: 1, color:"#EFCE57", backgroundColor:"#2C5C32"},
-  "Cross": {value: 5, color: "#E6CF7E", backgroundColor:"#2C5C32"},
-  "Run Away": {value: 5, color: "#2C5C32", backgroundColor:"#BC3C3F"},
+  "Grass": {value: 1, color:"#EFCE57", backgroundColor:"#4B9C55"},
+  "Hill": {value: 1, color:"#EFCE57", backgroundColor:"#4B9C55"},
+  "Cross": {value: 5, color: "#E6CF7E", backgroundColor:"#4B9C55"},
+  "Run Away": {value: 5, color: "#4B9C55", backgroundColor:"#BC3C3F"},
   "Yell": {value: 1, color: "#BC3C3F", backgroundColor:"white"},
-  "Insects": {value: 1, color:"#E6CF7E", backgroundColor:"#2C5C32"},
-  "Green leaves": {value: 5, color:"#E6CF7E", backgroundColor:"#BC3C3F"},
-  "Purple fruit": {value: 5, color:"#E6CF7E", backgroundColor:"#BC3C3F"},
-  "Wander": {value: 3, color: "#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Signal": {value:1, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Fire": {value:1, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Mirror SOS": {value:1, color:"#E6CF7E"},
-  "Ground Markers": {value:3, color:"#E6CF7E"},
-  "Yes": {value:1, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "No": {value:5, color:"#E6CF7E"},
-  "Right": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Left": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Up": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Down": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
-  "Big Fire": {value:1, color:"#E6CF7E", backgroundColor:"#BC3C3F"},
-  "Three Fires": {value:1, color:"#E6CF7E"},
-  "Forest Fire": {value:1, color:"#E6CF7E"},
-  "SOS": {value:1, color:"#E6CF7E", backgroundColor:"#2C5C32"},
-  "HELP": {value:1, color:"#E6CF7E"},
-  "Marking Trees": {value:1, color:"#E6CF7E"},
+  "Insects": {value: 1, color:"#EFCE57", backgroundColor:"#4B9C55"},
+  "Green leaves": {value: 5, color:"#EFCE57", backgroundColor:"#BC3C3F"},
+  "Purple fruit": {value: 5, color:"#EFCE57", backgroundColor:"#BC3C3F"},
+  "Wander": {value: 3, color: "#EFCE57", backgroundColor:"#EFCE57"},
+  "Signal": {value:1, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "Fire": {value:1, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "Mirror SOS": {value:1, color:"#EFCE57"},
+  "Ground Markers": {value:3, color:"#EFCE57"},
+  "Yes": {value:1, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "No": {value:5, color:"#EFCE57"},
+  "Right": {value:3, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "Left": {value:3, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "Up": {value:3, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "Down": {value:3, color:"#EFCE57", backgroundColor:"#EFCE57"},
+  "Big Fire": {value:1, color:"#EFCE57", backgroundColor:"#BC3C3F"},
+  "Three Fires": {value:1, color:"#EFCE57"},
+  "Forest Fire": {value:1, color:"#EFCE57"},
+  "SOS": {value:1, color:"#EFCE57", backgroundColor:"#4B9C55"},
+  "HELP": {value:1, color:"#EFCE57"},
+  "Marking Trees": {value:1, color:"#EFCE57"},
 }
 
 var counter = 0;
@@ -95,12 +95,16 @@ function showTextNode(textNodeIndex) {
     console.log(textNode.timeofday)
     document.getElementById('back1').style.display = "block"
     document.getElementById('back').style.display = "none"
+    document.getElementById('text').style.color = "white"
   }
   else if (textNode.timeofday == "night") {
     console.log(textNode.timeofday)
     document.getElementById('back').style.display = "block"
       document.getElementById('back1').style.display = "none"
+        document.getElementById('text').style.color = "#0F0F3E"
+
   }
+
 
   textNode.options.forEach(option => {
 
@@ -352,7 +356,7 @@ var textNodes = [
   },
   {
     id: 14,
-    timeofday: "night",
+    timeofday: "day",
     text: "DAY TWO \n \n Today, you look up at the sun and notice a halo or glow around it. You remember that this means it is likely to rain in the next day. You need to find shelter for tonight, especially if it's going to rain. Theres some larger bushes in a meadow nearby, a decent sized rocky outcropping, or space underneath a downed tree that you could use to build your shelter. Which do you choose?",
     options: [
       {
