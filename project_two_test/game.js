@@ -1,34 +1,51 @@
 const textElement = document.getElementById('text')
 const optionButtonsElement = document.getElementById('option-buttons')
 const optionsdictionary = {
-  "Water": {value: 1, color:"#2C5C32"},
+  "Start Game": {value: 0, color:"#DF9DB5", backgroundColor:"#DF9DB5"},
+  "Author": {value: 0, color:"#DF9DB5", backgroundColor:"#DF9DB5"},
+  "Water": {value: 1, color:"#2C5C32", backgroundColor:"#DF9DB5",  opacity: '.9'},
   "Knife": {value: 3, color:"#BC3C3F"},
   "Apples": {value: 1, color:"#2C5C32"},
-  "Torch": {value: 3, color:"#E6CF7E"},
-  "Run": {value: 1, color:"#BC3C3F"},
-  "Hide": {value: 3, color:"#BC3C3F"},
+  "Torch": {value: 3, color:"#EFCE57"},
+  "Run": {value: 1, color:"#2C5C32", backgroundColor:"#2C5C32"},
+  "Hide": {value: 3, color:"#2C5C32"},
   "Fight": {value: 5, color:"#BC3C3F"},
-  "Continue": {color: "#2C5C32"},
-  "Return": {color: "#BC3C3F"},
-  "Scare": {value: 3, color:"#BC3C3F"},
+  "Continue": {color: "#2C5C32", backgroundColor:"#2C5C32"},
+  "Return": {color: "#BC3C3F", backgroundColor:"#BC3C3F"},
+  "Scare": {value: 3, color:"#BC3C3F", backgroundColor:"#DF9DB5"},
   "Escape": {value: 1, color:"#BC3C3F"},
-  "Bushes": {value: 5, color:"#E6CF7E"},
+  "Bushes": {value: 5, color:"#E6CF7E", backgroundColor:"#2C5C32"},
   "Rocks": {value: 1, color:"#E6CF7E"},
   "Tree": {value: 1, color:"#E6CF7E"},
-  "North": {value: 1, color:"#2C5C32"},
+  "North": {value: 1, color:"#2C5C32", backgroundColor:"#2C5C32"},
   "South": {value: 3, color:"#2C5C32"},
   "East": {value: 1, color:"#2C5C32"},
   "West": {value: 3, color:"#BC3C3F"},
-  "Grass": {value: 1, color:"#2C5C32"},
-  "Hill": {value: 1, color:"#2C5C32"},
-  "Cross": {value: 5, color: "#2C5C32"},
-  "Run Away": {value: 5, color: "#BC3C3F"},
-  "Yell": {value: 1, color: "#BC3C3F"},
-  "Green leaves": {value: 5, color:"#E6CF7E"},
-  "Insects": {value: 1, color:"#E6CF7E"},
-  "Purple fruit": {value: 5, color:"#E6CF7E"},
-  "Wander": {value: 3, color: "#2C5C32"},
-  "Signal": {value:1, color:"#2C5C32"},
+  "Grass": {value: 1, color:"#EFCE57", backgroundColor:"#2C5C32"},
+  "Hill": {value: 1, color:"#EFCE57", backgroundColor:"#2C5C32"},
+  "Cross": {value: 5, color: "#E6CF7E", backgroundColor:"#2C5C32"},
+  "Run Away": {value: 5, color: "#2C5C32", backgroundColor:"#BC3C3F"},
+  "Yell": {value: 1, color: "#BC3C3F", backgroundColor:"white"},
+  "Insects": {value: 1, color:"#E6CF7E", backgroundColor:"#2C5C32"},
+  "Green leaves": {value: 5, color:"#E6CF7E", backgroundColor:"#BC3C3F"},
+  "Purple fruit": {value: 5, color:"#E6CF7E", backgroundColor:"#BC3C3F"},
+  "Wander": {value: 3, color: "#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Signal": {value:1, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Fire": {value:1, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Mirror SOS": {value:1, color:"#E6CF7E"},
+  "Ground Markers": {value:3, color:"#E6CF7E"},
+  "Yes": {value:1, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "No": {value:5, color:"#E6CF7E"},
+  "Right": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Left": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Up": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Down": {value:3, color:"#E6CF7E", backgroundColor:"#E6CF7E"},
+  "Big Fire": {value:1, color:"#E6CF7E", backgroundColor:"#BC3C3F"},
+  "Three Fires": {value:1, color:"#E6CF7E"},
+  "Forest Fire": {value:1, color:"#E6CF7E"},
+  "SOS": {value:1, color:"#E6CF7E", backgroundColor:"#2C5C32"},
+  "HELP": {value:1, color:"#E6CF7E"},
+  "Marking Trees": {value:1, color:"#E6CF7E"},
 }
 // var button1 = document.getElementById("green");
 // var button2 = document.getElementById("red");
@@ -56,11 +73,33 @@ function add5() {
   counter += 5;
   return counter;
 }
+//
+// if (showTextNode(34)) {
+//
+//     // if (counter <= 20) {
+//     //     showTextNode(37)
+//     // }
+//     //
+// }
+
+
+
+  // }
+  // if (showTextNode(34) && (counter >= 40 )) {
+  //   showTextNode(37)
+  // }
+  // if (showTextNode(34) && (20 < counter < 40)) {
+  //   showTextNode(38)
+  // }
+
 
 function startGame() {
   state = {}
-  showTextNode(1)
+  showTextNode(36)
+
+
 }
+
 
 function showTextNode(textNodeIndex) {
   const textNode = textNodes.find(textNode => textNode.id ===
@@ -98,6 +137,13 @@ function showTextNode(textNodeIndex) {
       button.addEventListener('click', () => selectOption(option, option.text))
       optionButtonsElement.appendChild(button)
       button.style.backgroundColor = optionsdictionary[option.text].color
+      // var shit = optionsdictionary[option.text].color
+      // var x = document.getElementsByClassName("btn:hover")
+      // Array.from(x).forEach(function(mybutton, shit) {
+      //   // mybutton.style.backgroundColor = shit
+      //   // mybutton.style.color = shit
+      //   console.log("print")
+      // })
       //
       // document.getElementsByClassName("contain").style.color.forEach(button => {
       //   contain.style.color = optionsdictionary[option.text].color;
@@ -107,16 +153,20 @@ function showTextNode(textNodeIndex) {
       // forEach(button) in optionButtonsElements {
       //   document.getElementsByClassName("contain").style.color = optionsdictionary[option.text].color;
       // }
-      document.getElementById("box").style.background = optionsdictionary[option.text].color
+      document.getElementById("box").style.opacity = optionsdictionary[option.text].opacity
+      // document.getElementById("box").style["boxShadow"] = optionsdictionary[option.text].color
+      document.getElementById("box").style.background = optionsdictionary[option.text].backgroundColor
+      // document.getElementById("hope").style.background = optionsdictionary[option.text].color
       // document.getElementById("box").style.background = optionsdictionary[option.text].color
-      var shit = optionsdictionary[option.text].color
-      var x = document.getElementsByClassName("btn:hover")
-      console.log(x)
-
-      Array.from(x).forEach(function(mybutton, shit) {
-        // mybutton.style.backgroundColor = shit
-        console.log("print")
-      })
+      // var shit = optionsdictionary[option.text].color
+      // var x = document.getElementsByClassName("btn:hover")
+      // console.log(x)
+      //
+      // Array.from(x).forEach(function(mybutton, shit) {
+      //   // mybutton.style.backgroundColor = shit
+      //   // mybutton.style.color = shit
+      //   console.log("print")
+      // })
       // document.getElementById("box").style.background = optionsdictionary[option.text].color
 
       // document.getElementById("hope").style["box-shadow"] = optionsdictionary[option.text].color
@@ -187,6 +237,21 @@ function selectOption(option, optionText) {
 // on click, check id, if
 // constant
 var textNodes = [
+{
+  id: 36,
+  timeofday: "night",
+  text: "Lorem Ipsum \n \n \n A text-based survival game to teach basic survival skills",
+  options: [
+    {
+      text: 'Start Game',
+      nextText: 1
+    },
+    {
+      text: 'Author',
+      nextText: 37
+    }
+  ]
+},
   {
     id: 1,
     timeofday: "night",
@@ -212,7 +277,7 @@ var textNodes = [
       },
       {
         text: 'Torch',
-        setState: { Light: true },
+          setState: { Light: true },
         nextText: 5
       }
     ]
@@ -691,15 +756,240 @@ var textNodes = [
       },
       {
         text: "Signal",
-        nextText: 35
+        nextText: 37
       }
     ]
   },
   {
     id: 35,
-    text: "",
+    text: "DAY FOUR \n \n What direction should you wander?",
+    options: [
+      {
+        text: "North",
+        nextText: 38,
+      },
+      {
+        text: "South",
+        nextText: 38,
+      },
+      {
+        text: "East",
+        nextText: 38,
+      },
+      {
+        text: "West",
+        nextText: 38,
+      }
+    ]
 
+  },
+  {
+    id: 37,
+    text: "DAY FOUR \n \n What kind of signal?",
+    options: [
+      {
+        text: "Fire",
+        nextText: 42,
+      },
+      {
+        text: "Mirror SOS",
+        requiredState: (currentState) => currentState.Light,
+        nextText: 43,
+      },
+      {
+        text: "Ground Markers",
+        nextText: 44,
+      }
+    ]
+  },
+  {
+    id: 38,
+    text: "DAY SIX \n \n Do you want to leave ground markers?",
+    options: [
+      {
+        text: "Yes",
+        nextText: 44,
+      },
+      {
+        text: "No",
+        nextText: 40,
+      }
+    ]
+  },
+  {
+    id: 39,
+    text: "DAY TWELVE \n \n After many, many days of wandering the forest, a rescue team had managed to find your ground markers and track you down. You've been rescued from the forest. ",
+    options: [
+      {
+        text: "Continue",
+        nextText: 36,
+      }
+    ]
+  },
+  {
+    id: 40,
+    text: "DAY SEVEN \n \n Where should you wander?",
+    options: [
+      {
+        text: "North",
+        nextText: 41,
+      },
+      {
+        text: "South",
+        nextText: 41,
+      },
+      {
+        text: "East",
+        nextText: 41,
+      },
+      {
+        text: "West",
+        nextText: 41,
+      }
+    ]
+  },
+  {
+    id: 41,
+    text: "DAY EIGHT \n \n Where should you wander?",
+    options: [
+      {
+        text: "Right",
+        nextText: 42,
+      },
+      {
+        text: "Left",
+        nextText: 42,
+      },
+      {
+        text: "Up",
+        nextText: 42,
+      },
+      {
+        text: "Down",
+        nextText: 42,
+      }
+    ]
+  },
+  {
+    id: 42,
+    text: "DAY NINE \n \n Where should you wander?",
+    options: [
+      {
+        text: "North",
+        nextText: 41,
+      },
+      {
+        text: "South",
+        nextText: 41,
+      },
+      {
+        text: "East",
+        nextText: 41,
+      },
+      {
+        text: "West",
+        nextText: 41,
+      }
+    ]
+  },
+  {
+    id: 41,
+    text: "DAY TEN \n \n You should have left ground markers behind you...you're lost and have succumbed to the forest.",
+    options: [
+      {
+        text: "Return",
+        nextText: 34,
+      }
+    ]
+  },
+  {
+    id: 42,
+    text: "DAY FOUR \n \n You're feeling anxious and desperate. Should you burn one big fire, three small fires in a triange, or burn the forest down to attract rescue attention?",
+    options: [
+      {
+        text: "Big Fire",
+        nextText: 45,
+      },
+      {
+        text: "Three Fires",
+        nextText: 46,
+      },
+      {
+        text: "Forest Fire",
+        nextText: 47,
+      }
+    ]
+  },
+  {
+    id: 43,
+    text: "DAY FOUR \n \n Thanks to your flashlight from your first night in the forest, you can use the reflectiveness and light to signal SOS to the sky! Within a couple hours, rescuers find you.",
+    // https://outdoors.stackexchange.com/questions/265/how-can-i-signal-for-help-in-the-wilderness
+    options: [
+      {
+        text:"Continue",
+        nextText: 36,
+      }
+    ]
+  },
+  {
+    id: 44,
+    text: "What type of ground marker should you use to signal for help? An SOS drawn on the ground, HELP, or marking trees?",
+    options: [
+      {
+        text: "SOS",
+        nextText: 48,
+      },
+      {
+        text: "HELP",
+        nextText: 48,
+      },
+      {
+        text: "Marking Trees",
+        nextText: 39,
+      }
+    ]
+  },
+  {
+    id: 45,
+    text: "DAY SIX \n \n After two days with the big fire going, rescuers finally see your smoke signal and locate your position. You've escaped the forest. Note however, that the international signal for in need of rescue to planes is three small fires positioned in a triangle. \n \n Thanks for playing!",
+    options: [
+      {
+        text: "Continue",
+        nextText: 36,
+      },
+    ]
+  },
+  {
+    id: 46,
+    text: "DAY FIVE \n \n Within one day of lighting your three small fires, rescuers notice this international help signal from the sky and locate your position. You've escaped from the forest. \n \n Thanks for playing!",
+    options: [
+      {
+        text: "Continue",
+        nextText: 36,
+      }
+    ]
+  },
+  {
+    id: 47,
+    text: "DAY FOUR \n \n You perished in the forest fire",
+    options: [
+      {
+        text: "Return",
+        nextText: 42,
+      }
+    ]
+  },
+  {
+    id: 48,
+    text: "DAY 12 \n \n Within a week of writing an international signal for help on the ground, rescuers were able to locate your position. You've barely escaped the forest. \n \n Thanks for playing!",
+    options: [
+      {
+        text: "Continue",
+        nextText: 36,
+      }
+    ]
   }
+
   // {
   //
   //   id: 7,

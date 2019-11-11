@@ -31,14 +31,14 @@ body {
 .container, #box {
   width:500px;
   max-width: 80%;
-  background: rgba(223, 157, 181, .4);
+  background: rgba(223, 157, 181, .2);
   /* background-color: #DF9DB5; */
   padding: 10px;
   /* border-radius: 5px; */
   box-shadow: 0 0 10px 2px;
   position: absolute;
-  background-color: #0F0F3E;
-
+  background-color: #DF9DB5;
+  opacity: .9;
 
 }
 .container #text {
@@ -78,7 +78,7 @@ body {
 .btn-grid {
   margin: 0;
   padding: 0;
-  background: white;
+  /* background: white; */
   height: 200px;
   width: 500px;
   display: flex;
@@ -88,7 +88,7 @@ body {
   position: relative;
   right: 10px;
   top: 50px;
-  background: rgba(225, 255, 255, .5);
+  /* background: rgba(225, 255, 255, .5); */
 }
 
 
@@ -120,14 +120,23 @@ body {
 } */
 .btn:hover, #hope {
 
-  color: white;
-  box-shadow: 0 0 10px 5px white;
+  color: black;
+  box-shadow: 0 0 10px 5px black;
   font-weight: 800;
 
 }
 :hover {
   color:white, black;
   font-weight: 800;
+}
+#startpagetitle  {
+  font-size: 400%;
+  font-weight: 700;
+  opacity: .8;
+  position: relative;
+  margin-left: 10px;
+  align-self: center;
+
 }
 {
 /* #counter {
