@@ -1,6 +1,9 @@
 *, *::before, *::after {
   box-sizing: border-box;
-
+font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 400;
+overflow: hidden;
 }
 
 body {
@@ -14,33 +17,53 @@ body {
   height: 100vh;
   /* background-color:#333; */
 }
+#back {
+  height: 350%;
+  width: 200%;
 
-.container {
+}
+#back1 {
+  width: 100%;
+  height: 300%;
+
+}
+.container, #box {
   width:500px;
   max-width: 80%;
-  background-color: #DF9DB5;
+  background: rgba(223, 157, 181, .7);
+  /* background-color: #DF9DB5; */
   padding: 10px;
   /* border-radius: 5px; */
   box-shadow: 0 0 10px 2px;
   position: absolute;
   color: #0F0F3E;
-  opacity: .8;
-  font-family: acumin-pro, sans-serif;
-  font-style: normal;
-  font-weight: 100;
 }
 .container #text {
-  margin: 20px;
-  margin-bottom: -120px;
+  margin: 25px;
+  margin-bottom: -200px;
 }
 .parallax-window2 {
   margin: 0;
   padding: 0;
   overflow: visible;
-  height:1000px;
+  height: 100px;
   width: 100%;
   background: transparent;
+  /* z-index: -1; */
+
 }
+.parallax-window3 {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  height: 500px;
+  width: 100%;
+  background: transparent;
+
+  /* z-index: -99; */
+
+}
+
 /* .parallax-window1 {
   margin: 0;
   padding: 0;
@@ -49,10 +72,19 @@ body {
   background: transparent;
 } */
 .btn-grid {
+  margin: 0;
+  padding: 0;
+  background: white;
+  height: 200px;
+  width: 500px;
   display: flex;
-  margin-top: 300px;
+  margin-top: 200px;
   margin-bottom: 40px;
   justify-content: center;
+  position: relative;
+  right: 10px;
+  top: 50px;
+  background: rgba(225, 255, 255, .5);
 }
 
 
@@ -60,6 +92,7 @@ body {
 
 .btn {
   /* background-color:red; */
+  opacity: 1;
   width: 80px;
   height: 80px;
   border: 1px  #0F0F3E;
@@ -68,6 +101,7 @@ body {
   color: black;
   outline: none;
   margin: 20px;
+  margin-top: 60px;
   image-resolution: 300%;
   background-color: white;
 
@@ -80,9 +114,15 @@ body {
 
 }
 .btn:hover, #hope {
-    background-color: #7C7C7C;
+  background-color: #7C7C7C;
   box-shadow: 0 0 10px 2px #0F0F3E;
 }
+/* #counter {
+  z-index: 99;
+  height: 100px;
+  width: 100px;
+  background: white;
+} */
 
 /* .btn {
     background: url("knifenounproject.png");
