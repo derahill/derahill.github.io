@@ -1,6 +1,7 @@
 .sitebody {
-    font-family: serif;
-    margin:0;
+    font-family: benton-sans, sans-serif;
+    /* font-margin */
+    margin:0 auto;
     margin-left: 220px;
     padding:0;
     border:  2px;
