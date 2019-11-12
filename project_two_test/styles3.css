@@ -18,11 +18,7 @@ body {
   height: 100vh;
   /* background-color:#333; */
 }
-#back {
-  height: 350%;
-  width: 200%;
 
-}
 #back1 {
   width: 100%;
   height: 300%;
@@ -31,10 +27,7 @@ body {
 .container, #box {
   width:500px;
   max-width: 80%;
-  background: rgba(223, 157, 181, .2);
-  /* background-color: #DF9DB5; */
   padding: 10px;
-  /* border-radius: 5px; */
   box-shadow: 0 0 10px 2px;
   position: absolute;
   background-color: #DF9DB5;
@@ -46,43 +39,18 @@ body {
   margin-bottom: -200px;
 
 }
+#box2 {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  position: relative;
+
+}
 #para {
   color: inherit;
   font-size: 100%;
 }
-.parallax-window2 {
-  margin: 0;
-  padding: 0;
-  overflow: visible;
-  height: 100px;
-  width: 100%;
-  background: transparent;
-  /* z-index: -1; */
 
-}
-.parallax-window3 {
-  margin: 0;
-  padding: 0;
-  overflow: visible;
-  height: 500px;
-  width: 100%;
-  background: transparent;
-
-  /* z-index: -99; */
-
-}
-
-/* .parallax-window1 {
-  margin: 0;
-  padding: 0;
-  overflow: visible;
-  height:400px;
-  background: transparent;
-} */
 .btn-grid {
-  margin: 0;
-  padding: 0;
-  /* background: white; */
   height: 200px;
   width: 500px;
   display: flex;
@@ -92,38 +60,23 @@ body {
   position: relative;
   right: 10px;
   top: 50px;
-  /* background: rgba(225, 255, 255, .5); */
+
 }
-
-
-    /* background: url("knifenounproject.png") 10px 50px; */
-
 .btn {
-  /* background-color:red; */
   opacity: 1;
   width: 80px;
   height: 80px;
   border: 1px  #0F0F3E;
   border-radius: 50%;
-  /* padding: 25px 10px; */
   color: black;
   outline: none;
   margin: 20px;
   margin-top: 60px;
   image-resolution: 300%;
   background-color: white;
-
 }
 
-/*  */
-/* .button1 {
-  background-color: yellow;
-} */
-/* .green {
-
-} */
 .btn:hover, #hope {
-
   color: black;
   box-shadow: 0 0 10px 5px black;
   font-weight: 800;
@@ -142,20 +95,6 @@ body {
   align-self: center;
 
 }
-{
-/* #counter {
-  z-index: 99;
-  height: 100px;
-  width: 100px;
-  background: white;
-} */
-
-/* .btn {
-    background: url("knifenounproject.png");
-} */
+a:link {
+  color: black;
 }
-/*
-#gold:hover {
-  background-color: #7C7C7C;
-box-shadow: 0 0 10px 2px #0F0F3E;
-} */

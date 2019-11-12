@@ -82,9 +82,6 @@ body {
   font-size: 400%;
   font-weight: 700;
   opacity: .8;
-
-  /* margin-left: 12px; */
-
 }
 #startpagetitle1 {
   width: 400px;
@@ -97,13 +94,5 @@ body {
   font-weight: 700;
   opacity: .8;
 
-  /* margin-left: 12px; */
-
 }
 {
-/* #counter {
-  z-index: 99;
-  height: 100px;
-  width: 100px;
-  background: white;
-} */
