@@ -15,8 +15,8 @@ const optionsdictionary = {
   "Use Torch": {value: 5, color:"#EFCE57", backgroundColor:"#BC3C3F"},
   "Continue": {color: "#4B9C55", backgroundColor:"#4B9C55"},
   "Return": {color: "#BC3C3F", backgroundColor:"#BC3C3F"},
-  "Scare": {value: 3, color:"#BC3C3F", backgroundColor:"#DF9DB5"},
-  "Escape": {value: 1, color:"#BC3C3F"},
+  "Escape": {value: 1, color:"#BC3C3F", backgroundColor:"#DF9DB5"},
+  "Scare": {value: 3, color:"#BC3C3F"},
   "Bushes": {value: 5, color:"#EFCE57", backgroundColor:"#4B9C55"},
   "Rocks": {value: 1, color:"#EFCE57"},
   "Tree": {value: 1, color:"#EFCE57"},
@@ -27,8 +27,8 @@ const optionsdictionary = {
   "Grass": {value: 1, color:"#EFCE57", backgroundColor:"#4B9C55"},
   "Hill": {value: 1, color:"#EFCE57", backgroundColor:"#4B9C55"},
   "Cross": {value: 5, color: "#E6CF7E", backgroundColor:"#4B9C55"},
-  "Run Away": {value: 5, color: "#4B9C55", backgroundColor:"#BC3C3F"},
-  "Yell": {value: 1, color: "#BC3C3F", backgroundColor:"white"},
+  "Sprint Away": {value: 5, color: "#BC3C3F", backgroundColor:"#E1BE40"},
+  "Yell": {value: 1, color: "#BC3C3F", backgroundColor:"E1BE40"},
   "Insects": {value: 1, color:"#EFCE57", backgroundColor:"#4B9C55"},
   "Green leaves": {value: 5, color:"#EFCE57", backgroundColor:"#BC3C3F"},
   "Purple fruit": {value: 5, color:"#EFCE57", backgroundColor:"#BC3C3F"},
@@ -491,7 +491,7 @@ var textNodes = [
     text: "DAY THREE \n \n A Mountain lion is approaching your position. It is aware of your presence in its territory. You could make a run for it, you could try an appear intimidating by yelling, or throw things at it to potentially scare it away. What should you do to escape the cougar? ",
     options: [
       {
-        text: "Run Away",
+        text: "Sprint Away",
         nextText: 24
       },
       {
