@@ -108,6 +108,8 @@ body {
   margin-top: 60px;
   image-resolution: 300%;
   background-color: white;
+  font-weight: 700;
+  font-style: bold;
 
 }
 
@@ -123,6 +125,7 @@ body {
   color: white;
   box-shadow: 0 0 10px 5px white;
   font-weight: 800;
+  font-size: 110%;
 
 }
 :hover {

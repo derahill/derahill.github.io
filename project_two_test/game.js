@@ -7,10 +7,12 @@ const optionsdictionary = {
   "Water": {value: 1, color:"#4B9C55", backgroundColor:"#4B9C55",  opacity: '.9'},
   "Knife": {value: 3, color:"#BC3C3F"},
   "Apples": {value: 1, color:"#4B9C55"},
-  "Torch": {value: 3, color:"#EFCE57"},
+  "Torch": {value: 3, color:"#E1BE40"},
   "Run": {value: 1, color:"#4B9C55", backgroundColor:"#4B9C55"},
   "Hide": {value: 3, color:"#4B9C55"},
   "Fight": {value: 5, color:"#BC3C3F"},
+  "Use Knife": {value: 5, color:"#BC3C3F", backgroundColor:"#BC3C3F"},
+  "Use Torch": {value: 5, color:"#EFCE57", backgroundColor:"#BC3C3F"},
   "Continue": {color: "#4B9C55", backgroundColor:"#4B9C55"},
   "Return": {color: "#BC3C3F", backgroundColor:"#BC3C3F"},
   "Scare": {value: 3, color:"#BC3C3F", backgroundColor:"#DF9DB5"},
@@ -234,7 +236,7 @@ var textNodes = [
   {
     id: 5,
     timeofday: "night",
-    text: "NIGHT ONE \n \n At least you can see in the dark. A flashlight may help you find food or water - you're feeling hungry and thirsty already. ",
+    text: "NIGHT ONE \n \n At least you can see in the dark. A torch may help you find food or water - you're feeling hungry and thirsty already. ",
     options: [
       {
         text: 'Continue',
@@ -246,7 +248,7 @@ var textNodes = [
   {
     id: 6,
     timeofday: "day",
-    text: 'DAY ONE \n \n After a long night without shelter, you find yourself wandering around looking for somewhere to find shelter. After many hours, you finally find traces of human activity. You follow the trail for some time when you see three hooded men approaching your position. These men dont look friendly. You dont have much time. What do you do?',
+    text: "DAY ONE \n \n After a long night without shelter, you find yourself wandering around looking for somewhere to find shelter. After many hours, you finally find traces of human activity. You follow the trail for some time when you see three hooded men approaching your position. These men dont look friendly. You don't have much time. What do you do?",
     options: [
       {
         text: 'Run',
@@ -277,7 +279,7 @@ var textNodes = [
   {
     id: 7,
     timeofday: "day",
-    text: "DAY ONE \n \n The three hooded men saw you take off from the path! You feel plenty hydrated to keep on going at a steady pace for many miles.  After a mile, they finally lost your track. You kept running just to make sure they were no where near where you'd set up camp for the night.",
+    text: "DAY ONE \n \n The three hooded men saw you take off from the path! You feel plenty hydrated to keep on going at a steady pace for many miles.  After a mile, they finally lost your track. You kept running just to make sure they were no where near where you would set up camp for the night.",
     options: [
       {
         text: "Continue",
@@ -321,7 +323,7 @@ var textNodes = [
   {
     id: 11,
     timeofday: "day",
-    text: "DAY ONE  \n \n Never a wise idea to fight three on one",
+    text: "DAY ONE  \n \n Never a wise idea to fight three on one. Try again. ",
     options: [
         {
           text: "Return",
@@ -486,7 +488,7 @@ var textNodes = [
   {
     id: 22,
     timeofday: "day",
-    text: "DAY THREE \n \n Mountain lion is approaching your position. It is aware of your presence in its territory. You could make a run for it, you could try an appear intimidating by yelling, or throw things at it to potentially scare it away. What should you do to escape the cougar? ",
+    text: "DAY THREE \n \n A Mountain lion is approaching your position. It is aware of your presence in its territory. You could make a run for it, you could try an appear intimidating by yelling, or throw things at it to potentially scare it away. What should you do to escape the cougar? ",
     options: [
       {
         text: "Run Away",
@@ -517,15 +519,15 @@ var textNodes = [
   {
     id: 24,
     timeofday: "day",
-    text: "DAY THREE \n \n Don't run away from cougars once they are aware of your presence - try to appear intimidating and slowly back away out of its territory. \n You've instigated a fight with the cougar. You have no choice but to defend yourself. ",
+    text: "DAY THREE \n \n Don't run away from cougars once they are aware of your presence - try to appear intimidating and slowly back away out of its territory. \n \n You've instigated a fight with the cougar. You have no choice but to defend yourself. ",
     options: [
       {
-        text: "Fight",
+        text: "Use Knife",
         requiredState: (currentState) => currentState.Knife,
         nextText: 27
       },
       {
-        text: "Fight",
+        text: "Use Torch",
         requiredState: (currentState) => currentState.Light,
         nextText: 28
       },
@@ -550,15 +552,15 @@ var textNodes = [
   {
     id: 26,
     timeofday: "day",
-    text: "DAY THREE \n \n You instigated a fight with the cougar by throwing things at it! You have no choice but to defend yourself.",
+    text: "DAY THREE \n \n You instigated a fight with the cougar by throwing things at it! \n \n You have no choice but to defend yourself.",
     options: [
       {
-        text: "Fight",
+        text: "Use Knife",
         requiredState: (currentState) => currentState.Knife,
         nextText: 27
       },
       {
-        text: "Fight",
+        text: "Use Torch",
         requiredState: (currentState) => currentState.Light,
         nextText: 28
       },
@@ -584,7 +586,7 @@ var textNodes = [
   {
     id: 28,
     timeofday: "day",
-    text: "DAY THREE \n \n The cougar pounced on you, but you were resourceful and defending yourself with your flashlight. You knocked the cougar on the head with the barrel of the flashlight and scared it away. You're safe, for now.",
+    text: "DAY THREE \n \n The cougar pounced on you, but you were resourceful and defending yourself with your torch. You knocked the cougar on the head with the barrel of the torch and scared it away. You're safe, for now.",
     options: [
       {
         text: "Continue",
@@ -734,7 +736,7 @@ var textNodes = [
   {
     id: 39,
     timeofday: "day",
-    text: "DAY TWELVE \n \n After many, many days of wandering the forest, a rescue team had managed to find your ground markers and track you down. You've been rescued from the forest. ",
+    text: "DAY TWELVE \n \n After many, many days of wandering the forest, a rescue team had managed to find your ground markers and track you down. You have escaped the forest!.  \n \n Thanks for playing!",
     options: [
       {
         text: "Continue",
@@ -825,7 +827,7 @@ var textNodes = [
   {
     id: 49,
     timeofday: "day",
-    text: "DAY FOUR \n \n You're feeling anxious and desperate. Should you burn one big fire, three small fires in a triange, or burn the forest down to attract rescue attention?",
+    text: "DAY FOUR \n \n You are feeling anxious and desperate. Should you burn one big fire, three small fires in a triange, or burn the forest down to attract rescue attention?",
     options: [
       {
         text: "Big Fire",
@@ -844,7 +846,7 @@ var textNodes = [
   {
     id: 43,
     timeofday: "day",
-    text: "DAY FOUR \n \n Thanks to your flashlight from your first night in the forest, you can use the reflectiveness and light to signal SOS to the sky! Within a couple hours, rescuers find you. \n \n \n Thanks for playing!",
+    text: "DAY FOUR \n \n Thanks to your torch from your first night in the forest, you can use the reflectiveness and light to signal SOS to the sky! Within a couple hours, rescuers find you. \n \n \n Thanks for playing!",
     // https://outdoors.stackexchange.com/questions/265/how-can-i-signal-for-help-in-the-wilderness
     options: [
       {
@@ -901,14 +903,14 @@ var textNodes = [
     options: [
       {
         text: "Return",
-        nextText: 42,
+        nextText: 49,
       }
     ]
   },
   {
     id: 48,
     timeofday: "day",
-    text: "DAY 12 \n \n Within a week of writing an international signal for help on the ground, rescuers were able to locate your position. You've barely escaped the forest. \n \n Thanks for playing!",
+    text: "DAY TWELVE \n \n Within a week of writing an international signal for help on the ground, rescuers were able to locate your position. You've barely escaped the forest. \n \n Thanks for playing!",
     options: [
       {
         text: "Continue",
