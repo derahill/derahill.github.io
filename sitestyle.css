@@ -14,21 +14,15 @@
 }
 
 .sitebody h1 {
-
   font-size: 50px;
   font-weight: lighter;
-
   /* background-color: lightblue; */
-  margin: 0;
-  padding: 0;
+  margin: .75em;
   text-align: center;
-
-
 }
 
 #onenav {
   text-align: center;
-  /* background-color: lightblue; */
   margin:0;
   padding:0;
 }
@@ -71,11 +65,11 @@
 #onenav {
   text-align: center;
   font-size: 200%;
-  margin: 15px;
+  margin: .75em;
 }
 #onenavbar {
   text-align: center;
-  margin:0;
+  margin:.75em;
   padding:0;
   padding-top: 20px;
   font-style: normal;
@@ -86,24 +80,26 @@
   opacity: .8;
 }
 
-#ptwo {
+#ptwo, #pthree {
   text-align: center;
   background-color: grey;
-  margin: 0;
+  margin: .75em;
   padding: 0;
   font-style: normal;
   font-size: 120%;
   font-weight: 100;
   padding-bottom: 10px;
+
   /* opacity: .6; */
 }
+
 #froglink {
 
   padding:40px;
   margin:0;
 }
 
-#aone, #atwo, #athree, #afour, #plain, #blog {
+#aone, #atwo, #athree, #afour, #plain, #blog, #resume {
   padding: 60px;
 }
 
