@@ -1,0 +1,200 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0c2340;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #0c2340;
+}
+
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 2.5rem 0rem 1.25rem 0rem;
+}
+
+/*****************/
+/**** Header *****/
+/*****************/
+
+header {
+    position: relative;
+}
+
+.site-header {
+    background-color: #0c2340;
+    width: 100%;
+    border-top: .25rem solid #ae9142;
+    border-bottom: .3125rem solid #0c2340;
+}
+
+.site-title img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.site-title {
+    margin: 2rem;
+}
+
+/*****************/
+/**** Main *****/
+/*****************/
+
+main {
+    background-color: white;
+}
+
+.spacing {
+    padding: 5% 5% 0 5%;
+}
+
+/* Welcome Section */
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+figcaption {
+    font-size: .75rem;
+    font-style: italic;
+}
+
+/* Quote Section */
+
+blockquote {
+    font-family: 'Suez One', serif;
+    font-size: 1.35rem;
+    line-height: 36px;
+    padding: 4.875rem 1.875rem;
+    margin: 2.5rem auto 0 auto;
+    background-color: rgba(174, 145, 66, 0.05);
+    color: #ae9142;
+}
+
+cite {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    color: #ae9142;
+    /*  30/16  */
+    margin-top: 3.5rem;
+    display: block;
+}
+
+/* Schedule Section */
+
+.info {
+    color: #ae9142;
+}
+
+.info h4 {
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: .125rem
+}
+
+.info h5 {
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 1.25rem;
+}
+
+.activity {
+    margin-bottom: 2.5rem;
+}
+
+.a-6 p:first-of-type {
+  margin-bottom:1rem;
+}
+
+hr {
+    border-top: .2rem solid #ae9142;
+    width: 2rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+/* Video Section */
+
+.video {
+    background-color: #000;
+}
+
+.video iframe {
+    height: 60vh;
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
+}
+
+/*****************/
+/**** Footer *****/
+/*****************/
+
+footer {
+    border-bottom: .25rem solid #ae9142;
+    width: 100%;
+}
+
+footer .footer-info {
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+footer dt {
+    color: #ae9142;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: .3125rem;
+}
+
+footer dd {
+    margin: 0 0 1.25rem 0;
+}
+
+/***********************************/
+/**** Various Style Reminders *****/
+/*********************************/
+
+/*
+This section is just something I tend to create to help me remember what the proper font-family values and color codes are for my project. It has no purpose other than being a repository for items that I use over and over throughout a single website.
+
+
+Roboto
+font-family: 'Roboto', sans-serif;
+
+Suez One
+font-family: 'Suez One', serif;
+
+COLORS
+
+Blue: 		#0C2340
+Gold: 		#AE9142
+Light Gold:	rgba(174, 145, 66, 0.05)
+White: 		#fff
+Black: 		#000
+*/

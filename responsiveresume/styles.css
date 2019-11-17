@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #2E4F9C;
+  width: 45%;
+  margin: 0 auto;
+}
+
+/* header {
+  background-color: #E9EDF5;
+  text-align: center;
+  padding: 1.5em;
+  margin-bottom: 5em;
+} */
+
+/* header img {
+  height: 9.735em;
+  margin: 1.56em 0em 1.875em;
+} */
+
+/* @media only screen and (min-width:500px) and (max-width:959px) { */
+header h1 {
+  background-color: #E4E4E4;
+  font-size: 3em;
+  font-weight: 400;
+  text-align: center;
+}
+
+header h2 {
+  background-color: #E4E4E4;
+  font-size: 1.25em;
+  font-weight: 400;
+  text-align: center;
+}
+.education {
+  position: relative;
+}
+.spacing {
+  position: relative;
+}
+.graddate  {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-style: italic;
+  /* text-align: right; */
+}
+.london {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-style: italic;
+}
+.xp {
+  background-color: #E4E4E4;
+  text-align: center;
+}
+
+@media only screen and (min-width:500px) and (max-width:959px) {
+  header h1 {
+    font-size: 1.75em;
+  }
+  header h2{
+    font-size: .7em;
+  }
+  .education {
+    width: 60%;
+    font-size: .55em;
+  }
+  .graddate {
+    font-size: .65em;
+  }
+  .london {
+    font-size: .65em;
+  }
+  .xp {
+    font-size: 1em;
+  }
+}
+
+/* header a {
+  display: block;
+  text-decoration: none;
+  color: #2E4F9C;
+}
+
+header a :nth-child(1) {
+  margin-top: 15px;
+}
+
+.flex h3 {
+  font-size: 1em;
+  font-weight: 700;
+}
+
+.flex h4 {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.flex h5 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #2E4F9C50;
+}
+
+.flex {
+  margin-bottom: 2.5em;
+}
+
+hr {
+  color: orange;
+}
+
+#left-column h1,
+#career-summary h1,
+#right-column h1 {
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  padding-bottom: .5em;
+  border-bottom: .0625em solid orange;
+}
+
+.container {
+  padding: 1.5em;
+}
+
+/* Fonts */
+.serif {
+  font-family: 'Lora', serif;
+}
+
+.sans-serif {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* @media only screen and (min-width:500px) and (max-width:959px) {}
+
+@media only screen and (min-width:960px) {
+.web-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+  header {
+    display: flex;
+    padding: 0;
+    margin-bottom: 2.5em;
+  }
+
+  header img {
+    height: 11.25em;
+    margin: 0;
+    padding: 0;
+  }
+
+  .name-contact {
+    text-align: left;
+    margin-left: 1.25em;
+  }
+
+  #career-summary h1 {
+    margin-top: 0;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .time-frame h5 {
+    margin-left: 13.125em;
+  }
+
+  section {
+    display:flex;
+  }
+
+  #left-column {
+    width: 60%;
+  }
+
+  #right-column {
+    margin-left:20px;
+  }
+}  */

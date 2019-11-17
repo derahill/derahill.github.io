@@ -1,0 +1,49 @@
+
+Responsive Web Design Example
+----------------------------------------------------------------------------------
+
+Code below to be placed at the top of your html file:
+
+<link href="https://fonts.googleapis.com/css?family=Roboto|Suez+One" rel="stylesheet">
+
+----------------------------------------------------------------------------------
+
+COLORS
+
+Blue: 		#0C2340
+Gold: 		#AE9142
+Light Gold:	rgba(174, 145, 66, 0.05)
+White: 		#fff
+Black: 		#000
+
+DESKTOP FONT STYLES
+
+Body: 		16px 'Roboto'
+H2:		24px
+FigCaption:	12px
+Blockquote:	20px/24px 'Suez One'
+Cite:		12px 'Roboto'
+
+Info H4:	16px/1.25
+Info H5:	13px	regular	italic
+
+Footer DT:	bold
+
+----------------------------------------------------------------------------------
+
+RESPONSIVE UNITS
+
+1rem = 16px
+
+% = a percentage of the parent elements width or height
+vw = a percentage of the viewport width
+vh = a percentage of the viewport height
+
+
+
+EQUATION TO USE TO TURN FIXED UNITS TO RESPONSIVE UNITS
+
+target  ÷  context  =  result 
+
+48px / 960px = 5%
+24px / 16px = 1.5rem

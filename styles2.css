@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  color: #2E4F9C;
+}
+
+/* header section */
+header {
+  background-color: #E8DEA0;
+  text-align: center;
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+
+header img {
+  height: 15em;
+  margin: 1em 0em 1.5em;
+
+}
+
+img#profilepic {
+  display: inline;
+  opacity: 1;
+}
+
+img#orange-image {
+  display:none;
+}
+
+header h1 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+header h2 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+header a {
+  display: block;
+  text-decoration: none;
+  color: #2E4F9C;
+}
+
+header a:nth-child(1) {
+  margin-top: 1rem;
+}
+
+/* main section */
+.webcontainer {
+  background-color: #DFE9FF;
+}
+#left-column h1,
+#careersum h1,
+#right-column h1 {
+  margin-top: 2em;
+  margin-bottom: 0.75em;
+  padding-bottom: .5em;
+  border-bottom: .08em solid #D1B818;
+
+}
+
+#careersum h1 {
+  margin-top: 0;
+}
+
+/* Left and right columns */
+.education-block h2 {
+  font-size: 1.2rem;
+}
+
+.job-container.jc-space {
+  margin-bottom: 4em;
+}
+
+.flex h3 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+.flex h4,
+.education-block h3,
+.education-block h4 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #8499CB;
+}
+
+.education-block h4 {
+  color: #8499CB;
+  margin-bottom: 1.25em;
+}
+
+.flex h5 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #8499CB;
+}
+
+.flex {
+  margin-bottom: 2.5em;
+}
+
+hr {
+  color: #ff9100;
+}
+
+.aboutcontainer {
+  padding: 1.5em;
+}
+
+/* Fonts */
+.serif {
+  font-family: 'Lora', serif;
+}
+
+.sans-serif {
+  font-family: 'Muli', sans-serif;
+}
+
+/* responsive media queries  */
+@media only screen and (min-width:500px) and (max-width:959px) {
+
+}
+
+@media only screen and (min-width:960px) {
+body {
+    color:#2E4F9C;
+}
+
+  .webcontainer {
+    width: 960px;
+    margin: 0 auto;
+    background: #DFE9FF;
+    z-index: -99;
+
+  }
+
+  header {
+    display: flex;
+    padding: 0;
+    margin-bottom: 2.5em;
+    background-color: #E8DEA0;
+  }
+
+  header a {
+    display:inline;
+    align-items: left;
+  }
+
+  header a:first-of-type {
+    margin-right: 2em;
+  }
+
+  header img {
+    height: 11.25em;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  img#blue-image {
+    display: none;
+  }
+
+  header a {
+    color:#2E4F9C;
+  }
+
+.education-block h4,
+.flex h5 {
+  color:#2E4F9C;
+}
+
+  .contactinfocontainer {
+    text-align: left;
+    margin-left: 1.25em;
+    position: relative;
+  }
+
+  .myname {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .job-container .flex {
+    justify-content: space-between;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #left-column {
+    width: 70%;
+  }
+
+  #right-column {
+    width: 25%;
+  }
+}

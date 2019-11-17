@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #0c2340;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #0c2340;
+}
+
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 1rem 0rem 2rem 0rem;
+}
+/* header */
+
+header {
+    position: relative;
+}
+
+.site-header {
+    background-color: #0c2340;
+    width: 100%;
+    border-top: .25rem solid #ae9142;
+    border-bottom: .3125rem solid #0c2340;
+}
+
+.site-title img {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.site-title {
+    margin: 2rem;
+}
+
+/*****************/
+/**** Main *****/
+/*****************/
+
+main {
+    background-color: white;
+}
+
+.spacing {
+    padding: 5% 5% 0 5%;
+}
+
+/* Welcome Section */
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    margin-bottom: .5rem;
+}
+
+figcaption {
+    font-size: .75rem;
+    font-style: italic;
+}
+
+/* Quote Section */
+
+blockquote {
+    font-family: 'Suez One', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4.875rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: rgba(174, 145, 66, 0.05);
+    color: #ae9142;
+}
+
+cite {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    color: #ae9142;
+    /*  30/16  */
+    margin-top: 3.5rem;
+    display: block;
+}
+
+/* Schedule */
+
+.info {
+    color: #ae9142;
+}
+
+.info h4 {
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.25;
+    text-transform: uppercase;
+    letter-spacing: .125rem
+}
+
+.info h5 {
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.activity {
+    margin-bottom: 2.5rem;
+}
+
+.a-6 p:first-of-type {
+  margin-bottom:1rem;
+}
+
+hr {
+    border-top: .2rem solid #ae9142;
+    width: 2rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+}
+
+/* Video */
+
+.video {
+    background-color: #000;
+}
+
+.video iframe {
+    height: 60vh;
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
+}
+
+/* footer */
+
+footer {
+    border-bottom: .25rem solid #ae9142;
+    width: 100%;
+}
+
+footer .footer-info {
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+footer dt {
+    color: #ae9142;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+
+footer dd {
+    margin: 0 0 1rem 0;
+}
+
+/***********************************/
+/**** Various Style Reminders *****/
+/*********************************/
+
+/*
+This section is just something I tend to create to help me remember what the proper font-family values and color codes are for my project. It has no purpose other than being a repository for items that I use over and over throughout a single website.
+
+
+Roboto
+font-family: 'Roboto', sans-serif;
+
+Suez One
+font-family: 'Suez One', serif;
+
+COLORS
+
+Blue: 		#0C2340
+Gold: 		#AE9142
+Light Gold:	rgba(174, 145, 66, 0.05)
+White: 		#fff
+Black: 		#000
+*/
+
+
+@media only screen and (min-width: 1000px) {
+
+.page {
+  width:960px;
+}
+
+/*****************/
+/**** Header *****/
+/*****************/
+
+.site-title {
+  /* 90% of 960 = 864px */
+  width:864px;
+  margin: 4rem auto;
+}
+
+.site-title img {
+  width: 428px;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+/*****************/
+/**** Main *****/
+/*****************/
+
+main {
+  /* 80% of 960 = 768px */
+  width: 768px;
+  padding: 3rem;
+  margin: 0 auto;
+}
+
+.spacing {
+  padding: 0;
+}
+
+/* Quote Section */
+
+blockquote {
+    font-size: 20px;
+    /*  537.6 / 768 = 70%  */
+    width: 70%;
+    border-top: 3.2px solid #ae9142;
+    padding: 30px;
+    background-color: #fff;
+    /* 28/16 = 1.75rem */
+    line-height: 28px;
+}
+
+cite {
+    font-size: 12px;
+    /* 24/16 = 1.5rem */
+    margin-top: 24px;
+}
+
+/* Schedule Section */
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info h4 {
+  margin: 0;
+  /* 384/768 = 50% */
+  width: 384px;
+}
+
+.info h5 {
+  /* 13/16 */
+  font-size: .8125rem;
+  /* 284/768 = 37% */
+  width: 284px;
+}
+
+/* Video Section */
+.video iframe {
+    height: 462px;
+    width: 768px;
+    margin: 0;
+}
+
+/*****************/
+/**** Footer *****/
+/*****************/
+
+footer .footer-info {
+  width: 864px;
+  text-align:left;
+  padding: 52px 0px;
+  box-sizing: border-box;
+}
+
+.flexboxy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+}
