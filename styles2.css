@@ -10,7 +10,8 @@ body {
 
 /* header section */
 header {
-  background-color: #E8DEA0;
+  background-color: #DFE9FF;
+  /* DFE9FF FFFADB*/
   text-align: center;
   padding: 1.5em;
   margin-bottom: 1em;
@@ -53,7 +54,7 @@ header a:nth-child(1) {
 
 /* main section */
 .webcontainer {
-  background-color: #DFE9FF;
+  background-color: #FFFADB;
 }
 #left-column h1,
 #careersum h1,
@@ -63,10 +64,12 @@ header a:nth-child(1) {
   padding-bottom: .5em;
   border-bottom: .08em solid #D1B818;
 
+
 }
 
 #careersum h1 {
   margin-top: 0;
+
 }
 
 /* Left and right columns */
@@ -74,10 +77,15 @@ header a:nth-child(1) {
   font-size: 1.2rem;
 }
 
-.job-container.jc-space {
+.job-container {
   margin-bottom: 4em;
 }
+.job-container p {
+  margin-top: -1em;
+  margin-bottom: -1em;
 
+}
+.job-container
 .flex h3 {
   font-size: 1.25em;
   font-weight: 700;
@@ -112,6 +120,7 @@ hr {
 
 .aboutcontainer {
   padding: 1.5em;
+
 }
 
 /* Fonts */
@@ -125,7 +134,9 @@ hr {
 
 /* responsive media queries  */
 @media only screen and (min-width:500px) and (max-width:959px) {
+.webcontainer {
 
+}
 }
 
 @media only screen and (min-width:960px) {
@@ -136,29 +147,30 @@ body {
   .webcontainer {
     width: 960px;
     margin: 0 auto;
-    background: #DFE9FF;
+    background: #FFFADB;
     z-index: -99;
-
   }
 
   header {
     display: flex;
     padding: 0;
-    margin-bottom: 2.5em;
-    background-color: #E8DEA0;
+    margin-bottom: 2.2em;
+    background-color: #DFE9FF;
   }
 
   header a {
-    display:inline;
+    display:flex;
     align-items: left;
+
   }
 
   header a:first-of-type {
     margin-right: 2em;
+
   }
 
   header img {
-    height: 11.25em;
+    height: 12em;
     margin: 0;
     padding: 0;
   }
@@ -170,6 +182,7 @@ body {
 
   header a {
     color:#2E4F9C;
+
   }
 
 .education-block h4,
@@ -179,7 +192,8 @@ body {
 
   .contactinfocontainer {
     text-align: left;
-    margin-left: 1.25em;
+    margin-left: 3.25em;
+    margin-bottom: 1em;
     position: relative;
   }
 
