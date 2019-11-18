@@ -93,7 +93,7 @@ header a:nth-child(1) {
 }
 
 #careersum h1 {
-  margin-left: .75em;
+  margin-left: .5em;
   margin-top: 0;
   position: relative;
   right: .5em;
@@ -101,7 +101,7 @@ header a:nth-child(1) {
 
 #careersum p {
   margin-top: -1em;
-  margin-left: 1.5em;
+  margin-left: 1em;
   padding-bottom: 1em;
   padding-right: 1em;
 }
@@ -223,8 +223,6 @@ body {
     margin: 0;
     padding: 0;
   }
-
-
 
   header a {
     color:#2E4F9C;
