@@ -181,14 +181,14 @@ hr {
 }
 
 /* responsive media queries  */
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:600px) {
 header img {
   height: 12em;
   margin: 0em 0em .5em;
 }
 }
 
-@media only screen and (min-width:960px) {
+@media only screen and (min-width:1025px) {
 body {
     color:#2E4F9C;
 }

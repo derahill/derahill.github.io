@@ -1,0 +1,218 @@
+*,* {
+
+}
+
+/* outside border of opening screen to mobile site  */
+.bordercontainer {
+  background-color: #E9F2FF;
+  padding: 1em 0 1em 1em;
+  height: 50em;
+  width: 22em;
+}
+
+#background {
+  z-index: -99;
+  margin-bottom: -30em;
+  opacity: .5;
+}
+/* inner container of opening screen to mobile site */
+.container {
+  padding: 1em 0 1em 1em;
+  height: 40em;
+  margin-top: -10em;
+}
+.container h1 {
+  color: #000A61;
+
+  font-size: 4.3rem;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+  margin: 0em 0em 0em 0em;
+
+}
+
+#Title {
+  color: #000A61;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  z-index: 99;
+}
+#Author {
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  padding-left: 6em;
+}
+
+.cover {
+  background-color: black;
+  z-index: 99;
+}
+.cover1 {
+
+}
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  background-color: #333;
+  position: relative;
+  width: 22em;
+  z-index: 70;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #links {
+  display: none;
+
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #000A61;
+  color: white;
+  height: 1em;
+  width: 20em;
+}
+.icon {
+  height: 1em;
+}
+
+#parkLogo {
+  width: 20rem;
+  height: 10rem;
+}
+
+#intro, #introp2 {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000A61;
+  padding: 1em;
+  border: 5px solid #E9F2FF;
+}
+#blockq1, #blockq2, #blockq3 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: #E9F2FF;
+    color: #000A61;
+}
+
+cite {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    color: #000A61;
+    /*  30/16  */
+    margin-top: 3.5rem;
+    display: block;
+}
+
+.filmContainer {
+  background:  #FF7575;
+}
+
+#Film {
+  margin: 1em;
+  color: #000A61;
+
+}
+#filmp1, #filmp2 {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #000A61;
+  padding: 1em;
+  border: 5px solid #FF7575;
+}
+
+#movieTitle {
+  font-size: 2.8em;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+}
+
+#starring {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#trailer {
+  margin: 0;
+  margin-top: -13em;
+  margin-bottom: -13em;
+  padding: 0;
+  height: 40em;
+  width: 23em;
+}
+#blockq4, #blockq5, #blockq6, #blockq7, #blockq8 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: #FF7575;
+    color: #000A61;
+}
+#blockq3 {
+  background-color: #FF7575;
+}
+
+#rides {
+
+}
+@media only screen and (min-width:360px) and (max-width:500px) {
+.background {
+  visibility: hidden;
+}
+
+.container {
+  padding-right: 0em;
+}
+@media only screen and (min-width:500px) and (max-width:2000px) {
+.background {
+  visibility: hidden;
+}
+#trailer {
+  height: 50em;
+  width: 30em;
+}
+}
