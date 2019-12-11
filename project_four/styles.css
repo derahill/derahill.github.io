@@ -227,7 +227,7 @@ cite {
 
 @media only screen and (min-width:500px) and (max-width:2000px) {
 *,* {
-  max-width: 40em;
+  max-width: 48em;
   margin: auto;
   position: relative;
   align-content: center;
@@ -235,13 +235,13 @@ cite {
 #openingvideo {
   display: block;
   visibility: visible;
-  width: 40em;
+  width: 48em;
   right: 1em;
   bottom: 1.4em;
 
 }
 .bordercontainer {
-  width: 39em;
+  width: 48em;
   height: 40em;
   top: 1em;
 
@@ -255,14 +255,9 @@ cite {
 #background {
   visibility: hidden;
 }
-#Author {
-  margin:auto;
-  padding-left: 15em;
-  bottom: 45em;
-  color: #FAEB62;
-}
+
 #TitlePart1 {
-  color: #000A61;
+  color: #DF71CC;
   font-family: 'gothic-open-shaded', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -271,6 +266,31 @@ cite {
   margin: auto;
   display: inline;
   visibility: visible;
+  bottom: 28em;
+}
+#TitlePart2 {
+  color: #FAEB62;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3.8em;
+  z-index: 99;
+  margin: auto;
+  display: inline;
+  visibility: visible;
+  bottom: 10.3em;
+}
+#TitlePart3 {
+  color: #FB8044;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4em;
+  z-index: 99;
+  margin: auto;
+  display: flex;
+  visibility: visible;
+  bottom: 27.5em;
 }
 #Title {
   display: none;
@@ -281,6 +301,12 @@ cite {
 }
 #parkLogo {
   /* visibility: hidden; */
+}
+#Author {
+  margin:auto;
+  padding-left: 15em;
+  bottom: 37.5em;
+  color: white;
 }
 #trailer {
   height: 50em;
