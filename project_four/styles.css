@@ -6,7 +6,7 @@
 .bordercontainer {
   background-color: #E9F2FF;
   padding: 1em 0 1em 1em;
-  height: 50em;
+  height: 53em;
   width: 22em;
 }
 
@@ -14,6 +14,11 @@
   z-index: -99;
   margin-bottom: -30em;
   opacity: .5;
+}
+
+#openingvideo {
+  display: none;
+  visibility: hidden;
 }
 /* inner container of opening screen to mobile site */
 .container {
@@ -23,7 +28,6 @@
 }
 .container h1 {
   color: #000A61;
-
   font-size: 4.3rem;
   font-family: 'gothic-open-shaded', sans-serif;
   font-weight: 400;
@@ -42,31 +46,42 @@
   font-style: normal;
   font-size: 1.5em;
   z-index: 99;
+  margin: auto;
+
+}
+
+#TitlePart1, #TitlePart2, #TitlePart3 {
+  display: none;
+  visibility: hidden;
+  color: #000A61;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  z-index: 99;
+  margin: auto;
 }
 #Author {
-  font-family: bookmania, serif;
+  font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1em;
   padding-left: 6em;
+  padding-bottom: 1em;
 }
 
-.cover {
-  background-color: black;
-  z-index: 99;
-}
-.cover1 {
 
-}
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
+  margin: auto;
   padding: 0;
-  margin: 0;
+  margin: auto;
   background-color: #333;
   position: relative;
   width: 22em;
   z-index: 70;
+  bottom: 1em;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -112,8 +127,9 @@
 }
 
 #parkLogo {
-  width: 20rem;
-  height: 10rem;
+  margin: auto;
+  align-content: center;
+  width: 23.5em;
 }
 
 #intro, #introp2 {
@@ -207,12 +223,69 @@ cite {
 .container {
   padding-right: 0em;
 }
+}
+
 @media only screen and (min-width:500px) and (max-width:2000px) {
-.background {
+*,* {
+  max-width: 40em;
+  margin: auto;
+  position: relative;
+  align-content: center;
+}
+#openingvideo {
+  display: block;
+  visibility: visible;
+  width: 40em;
+  right: 1em;
+  bottom: 1.4em;
+
+}
+.bordercontainer {
+  width: 39em;
+  height: 40em;
+  top: 1em;
+
+  background-color: black;
+  margin-bottom: 1em;
+}
+
+.container, .topnav {
   visibility: hidden;
+}
+#background {
+  visibility: hidden;
+}
+#Author {
+  margin:auto;
+  padding-left: 15em;
+  bottom: 45em;
+  color: #FAEB62;
+}
+#TitlePart1 {
+  color: #000A61;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  z-index: 99;
+  margin: auto;
+  display: inline;
+  visibility: visible;
+}
+#Title {
+  display: none;
+  margin: auto;
+  font-size: 3em;
+  bottom: 15em;
+  color: #FAEB62;
+}
+#parkLogo {
+  /* visibility: hidden; */
 }
 #trailer {
   height: 50em;
   width: 30em;
 }
+
+
 }
