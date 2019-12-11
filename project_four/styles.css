@@ -2,18 +2,20 @@
 
 }
 
+
 /* outside border of opening screen to mobile site  */
 .bordercontainer {
   background-color: #E9F2FF;
   padding: 1em 0 1em 1em;
   height: 53em;
   width: 22em;
+  color: black;
 }
-
 #background {
-  z-index: -99;
+
+  z-index: 99;
   margin-bottom: -30em;
-  opacity: .5;
+
 }
 
 #openingvideo {
@@ -25,6 +27,7 @@
   padding: 1em 0 1em 1em;
   height: 40em;
   margin-top: -10em;
+
 }
 .container h1 {
   color: #000A61;
@@ -127,34 +130,59 @@
 }
 
 #parkLogo {
+  display: none;
   margin: auto;
   align-content: center;
   width: 23.5em;
 }
 
-#intro, #introp2 {
+#intro {
   font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
-  color: #000A61;
+  color: #ffffff;
   padding: 1em;
-  border: 5px solid #E9F2FF;
+  border-top: 3px solid #FAEB62;
 }
-#blockq1, #blockq2, #blockq3 {
+#introp2 {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+  padding: 1em;
+}
+#blockq1 {
   font-family: 'bookmania', serif;
     font-size: 1.35rem;
     line-height: 2.5rem;
     padding: 4rem 1.875rem;
     margin: 1rem auto 0 auto;
-    background-color: #E9F2FF;
-    color: #000A61;
+    background-color: #000;
+    color: #FAEB62;
 }
 
+#blockq2 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: #000;
+    color: #DF71CC;}
+#blockq3 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: #000;
+    color: #FB8044;
+}
 cite {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'bookmania', serif;
     font-size: 1rem;
     font-style: normal;
-    color: #000A61;
+    color: #DF71CC;
     /*  30/16  */
     margin-top: 3.5rem;
     display: block;
@@ -208,9 +236,7 @@ cite {
     background-color: #FF7575;
     color: #000A61;
 }
-#blockq3 {
-  background-color: #FF7575;
-}
+
 
 #rides {
 
@@ -231,18 +257,24 @@ cite {
   margin: auto;
   position: relative;
   align-content: center;
+
 }
+
+html {
+  background-color: #000;
+}
+
 #openingvideo {
   display: block;
   visibility: visible;
-  width: 48em;
-  right: 1em;
-  bottom: 1.4em;
-
+  width: 47em;
+  height: 48em;
+  right: .5em;
+  bottom: 7em;
 }
 .bordercontainer {
-  width: 48em;
-  height: 40em;
+  width: 47em;
+  height: 49em;
   top: 1em;
 
   background-color: black;
@@ -261,12 +293,12 @@ cite {
   font-family: 'gothic-open-shaded', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 2.5em;
   z-index: 99;
   margin: auto;
-  display: inline;
+  display: block;
   visibility: visible;
-  bottom: 28em;
+  bottom: 21em;
 }
 #TitlePart2 {
   color: #FAEB62;
@@ -276,9 +308,10 @@ cite {
   font-size: 3.8em;
   z-index: 99;
   margin: auto;
-  display: inline;
+  display: block;
   visibility: visible;
-  bottom: 10.3em;
+  bottom: 13.5em;
+  left: 3em;
 }
 #TitlePart3 {
   color: #FB8044;
@@ -290,7 +323,7 @@ cite {
   margin: auto;
   display: flex;
   visibility: visible;
-  bottom: 27.5em;
+  bottom: 36em;
 }
 #Title {
   display: none;
@@ -299,19 +332,50 @@ cite {
   bottom: 15em;
   color: #FAEB62;
 }
-#parkLogo {
-  /* visibility: hidden; */
-}
+
 #Author {
   margin:auto;
-  padding-left: 15em;
-  bottom: 37.5em;
-  color: white;
-}
-#trailer {
-  height: 50em;
-  width: 30em;
+  padding-left: 35em;
+  bottom: 49em;
+  color: #ffffff;
 }
 
+.filmContainer {
+  background-color: black;
+}
+#movieTitle {
+  color: #A52714;
+  background-color: #000;
+  font-size: 6em;
+
+}
+#starring {
+  background-color: #000;
+  color: #fff;
+  font-size: 1em;
+
+}
+#trailer {
+  display: block;
+  visibility: visible;
+  width: 47em;
+  height: 48em;
+  right: .5em;
+  top: 1em;
+
+  /* bottom: 7em; */
+}
+#blockq4, #blockq5, #blockq6, #blockq7, #blockq8 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: #000;
+    color: #A52714;
+/*
+#blockq4, #blockq5, #blockq6, #blockq7, #blockq8 {
+  background-color: black;
+} */
 
 }
