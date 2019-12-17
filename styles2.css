@@ -1,4 +1,4 @@
-* {
+  * {
   margin: 0;
   padding: 0;
 }
@@ -179,6 +179,8 @@ hr {
 .sans-serif {
   font-family: 'Muli', sans-serif;
 }
+
+
 
 /* responsive media queries  */
 @media only screen and (max-width:600px) {

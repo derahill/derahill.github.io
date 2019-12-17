@@ -1,18 +1,20 @@
 *,* {
-
+max-width: 400px;
 }
 
-
+html {
+  /* background-color: black; */
+}
 /* outside border of opening screen to mobile site  */
 .bordercontainer {
-  background-color: #E9F2FF;
+  background-color: black;
   padding: 1em 0 1em 1em;
   height: 53em;
   width: 22em;
   color: black;
 }
 #background {
-
+  color: black;
   z-index: 99;
   margin-bottom: -30em;
 
@@ -30,8 +32,8 @@
 
 }
 .container h1 {
-  color: #000A61;
-  font-size: 4.3rem;
+  /* color: #000A61; */
+
   font-family: 'gothic-open-shaded', sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -41,15 +43,39 @@
   margin: 0em 0em 0em 0em;
 
 }
+/* pink: DF71CC */
+/* blue: A2D7FF */
+/* gold: FAEB62  */
+/* orange: FB8044 */
+/* red: A52714 */
+#you {
+  color: #A2D7FF;
+  font-size: 4.3rem;
+}
 
+#control {
+  color: #FAEB62;
+  font-size: 4.3rem;
+}
+#the {
+  color: #FB8044;
+  font-size: 4.3rem;
+}
+#action {
+  color: #DF71CC;
+  font-size: 4.3rem;
+}
 #Title {
-  color: #000A61;
-  font-family: 'gothic-open-shaded', sans-serif;
-  font-weight: 400;
+  color: #FAEB62;
+  /* font-family: 'gothic-open-shaded', sans-serif; */
+  font-family: 'bookmania', serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 1.5em;
   z-index: 99;
   margin: auto;
+  position: relative;
+  text-align: center;
 
 }
 
@@ -65,6 +91,7 @@
   margin: auto;
 }
 #Author {
+  color: white;
   font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
@@ -80,11 +107,12 @@
   margin: auto;
   padding: 0;
   margin: auto;
-  background-color: #333;
+  background-color: black;
   position: relative;
-  width: 22em;
+  width: 23em;
   z-index: 70;
-  bottom: 1em;
+  /* bottom: 1em; */
+  right: 1em;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -95,7 +123,7 @@
 
 /* Style navigation menu links */
 .topnav a {
-  color: white;
+  color: #A2D7FF;
   padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -114,16 +142,18 @@
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #DF71CC;
   color: black;
 }
 
+
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #000A61;
+  background-color: black;
   color: white;
   height: 1em;
   width: 20em;
+
 }
 .icon {
   height: 1em;
@@ -140,15 +170,15 @@
   font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
+  color: black;
   padding: 1em;
-  border-top: 3px solid #FAEB62;
+  /* border-top: 3px solid #FAEB62; */
 }
 #introp2 {
   font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
+  color: black;
   padding: 1em;
 }
 #blockq1 {
@@ -175,8 +205,8 @@
     line-height: 2.5rem;
     padding: 4rem 1.875rem;
     margin: 1rem auto 0 auto;
-    background-color: #000;
-    color: #FB8044;
+    background-color: black;
+    color: white;
 }
 cite {
     font-family: 'bookmania', serif;
@@ -189,35 +219,38 @@ cite {
 }
 
 .filmContainer {
-  background:  #FF7575;
+  /* background:  #FF7575; */
 }
 
 #Film {
   margin: 1em;
-  color: #000A61;
+  color: #A52714;
 
 }
 #filmp1, #filmp2 {
   font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
-  color: #000A61;
+  color: black;
   padding: 1em;
-  border: 5px solid #FF7575;
+  /* border: 5px solid #FF7575; */
 }
 
 #movieTitle {
-  font-size: 2.8em;
+  font-size: 4.8em;
   font-family: 'gothic-open-shaded', sans-serif;
   font-weight: 400;
   font-style: normal;
   padding-top: 10px;
+  text-align: center;
 }
 
 #starring {
   font-family: 'bookmania', serif;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+  margin-top: -3em;
 }
 #trailer {
   margin: 0;
@@ -233,13 +266,104 @@ cite {
     line-height: 2rem;
     padding: 2rem 1rem;
     margin: 1rem auto 0 auto;
-    background-color: #FF7575;
-    color: #000A61;
+    background-color: black;
+    color: #A2D7FF;
+}
+#Parks {
+  margin: 1em;
+  color: 1em;
+  color: #A2D7FF;
+  margin-bottom: -2em;
+}
+#Parksheader {
+  font-size: 4.8em;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  text-align: center;
+}
+#alpine {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: -2em;
+  font-size: 2em;
+}
+#motor {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  /* margin-top: -3em; */
+  color: #A2D7FF;
+  font-size: 2em;
+  margin: -.5em;
+}
+#water {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #A2D7FF;
+  font-size: 2em;
+  margin: -.5em;
+  /* margin-top: -3em; */
+}
+#rides, #Motorworld, #Waterworld, #Legacy {
+  color: black;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1em;
 }
 
+#Traghead {
+  background-color: black;
+  color: white;
+  font-size: 4.8em;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: .3em;
+  text-align: center;
+}
+#Trag, #Tragp2 {
+  color: white;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: -2em 2em 2em 2em;
+  padding-bottom: 2em;
+}
 
-#rides {
+#audiotitle {
+  color: white;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: -3em;
+  padding-bottom: 1em;
+}
+#audioclip {
+  margin: 0em 0em 3em 2.5em;
 
+}
+#blackbackdrop {
+  background-color: black;
+}
+
+#Legacyhead {
+  background-color: white;
+  color: #DF71CC;
+  font-size: 4.8em;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: .3em;
+  text-align: center;
 }
 @media only screen and (min-width:360px) and (max-width:500px) {
 .background {
@@ -257,10 +381,9 @@ cite {
   margin: auto;
   position: relative;
   align-content: center;
-
 }
 
-html {
+#backdrop {
   background-color: #000;
 }
 
@@ -276,7 +399,6 @@ html {
   width: 47em;
   height: 49em;
   top: 1em;
-
   background-color: black;
   margin-bottom: 1em;
 }
@@ -286,6 +408,13 @@ html {
 }
 #background {
   visibility: hidden;
+}
+#intro, #introp2 {
+  color: white;
+  padding: 4em 4em 0em 4em;
+}[]
+#blockq1, #blockq2, #blockq3 {
+  margin: 0em 3em -2em 3em;
 }
 
 #TitlePart1 {
@@ -298,20 +427,21 @@ html {
   margin: auto;
   display: block;
   visibility: visible;
-  bottom: 21em;
+  bottom: 20.5em;
+  text-align: center;
 }
 #TitlePart2 {
   color: #FAEB62;
   font-family: 'gothic-open-shaded', sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 3.8em;
+  font-size: 4.8em;
   z-index: 99;
   margin: auto;
   display: block;
   visibility: visible;
-  bottom: 13.5em;
-  left: 3em;
+  bottom: 10.5em;
+  left: 1.4em;
 }
 #TitlePart3 {
   color: #FB8044;
@@ -324,6 +454,7 @@ html {
   display: flex;
   visibility: visible;
   bottom: 36em;
+  left: 3.1em;
 }
 #Title {
   display: none;
@@ -335,8 +466,8 @@ html {
 
 #Author {
   margin:auto;
-  padding-left: 35em;
-  bottom: 49em;
+  padding-left: 18em;
+  bottom: 48em;
   color: #ffffff;
 }
 
@@ -369,7 +500,8 @@ html {
   font-family: 'bookmania', serif;
     font-size: 1.35rem;
     line-height: 2rem;
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem; */
+    /* margin: 0em 3em -2em 3em; makes block quotes amller and blockier */
     margin: 1rem auto 0 auto;
     background-color: #000;
     color: #A52714;
