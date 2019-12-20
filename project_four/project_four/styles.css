@@ -672,10 +672,6 @@ html {
   overflow-x: hidden;
 }
 
-.mobileback {
-  height: 320px;
-}
-
 .Author {
   position: relative;
   top: 2.5em;
@@ -952,7 +948,7 @@ right: 15.2em; */
 
 
 #map {
-    display: block;
+  display: block;
   margin-top: 2em;
 
 }
