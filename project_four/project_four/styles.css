@@ -1,0 +1,1229 @@
+*,* {
+max-width: 400px;
+margin: auto;
+padding: auto;
+}
+
+html {
+  /* background-color: black; */
+}
+/* outside border of opening screen to mobile site  */
+.bordercontainer {
+  background-color: black;
+  padding: 1em 0 1em 1em;
+  height: 53em;
+  width: 25em;
+  color: black;
+}
+#background {
+  color: black;
+  z-index: 99;
+  margin-bottom: -30em;
+
+}
+
+.openingvideo {
+  display: none;
+  visibility: hidden;
+}
+/* inner container of opening screen to mobile site */
+.container {
+  padding: 1em 0 1em 1em;
+  height: 40em;
+  margin-top: -10em;
+
+}
+.container h1 {
+  /* color: #000A61; */
+
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+  margin: 0em 0em 0em 0em;
+
+}
+/* pink: DF71CC */
+/* blue: A2D7FF */
+/* gold: FAEB62  */
+/* orange: FB8044 */
+/* red: A52714 */
+#you {
+  color: #A2D7FF;
+  font-size: 4.3rem;
+}
+
+#control {
+  color: #FAEB62;
+  font-size: 4.3rem;
+}
+#the {
+  color: #FB8044;
+  font-size: 4.3rem;
+}
+#action {
+  color: #DF71CC;
+  font-size: 4.3rem;
+}
+#Title {
+  color: #FAEB62;
+  /* font-family: 'gothic-open-shaded', sans-serif; */
+  font-family: 'bookmania', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5em;
+  z-index: 99;
+  margin: auto;
+  position: relative;
+  text-align: center;
+}
+
+.TitlePart1, .TitlePart2, .TitlePart3 {
+  display: none;
+  visibility: hidden;
+  color: #000A61;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  z-index: 99;
+  margin: auto;
+
+}
+.Author {
+  color: white;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+  padding-left: 8em;
+  position: relative;
+  top: -5em;
+
+}
+
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  /* width: 20%; */
+  top: 0;
+  z-index: 70;
+  right: 3.1em;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #links {
+  display: none;
+  z-index: 99;
+  width: 20em;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: #A2D7FF;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  height: 51px;
+  width: 50px;
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #DF71CC;
+  color: black;
+}
+
+
+/* Style the active link (or home/logo) */
+.active1 {
+  background-color: black;
+  color: white;
+  height: 3em;
+  width: 3em;
+  /* position: absolute; */
+}
+.icon {
+  height: 1em;
+}
+
+#parkLogo {
+  display: none;
+  margin: auto;
+  align-content: center;
+  width: 23.5em;
+}
+* {box-sizing:border-box}
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 62.500em;
+  max-height: 65.500em;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.mySlides1 {
+  display: none;
+}
+
+.fade1 {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.active, .dot1:hover {
+  background-color: #717171;
+}
+
+.dot1 {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Next & previous buttons for action park slideshow*/
+.prev1, .next1 {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  margin-top: 3200px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next1 {
+  right: 2.3em;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev1:hover, .next1:hover {
+  color: black;
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+.text8 {
+  font-family: 'bookmania', serif;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  padding: 4rem 3rem;
+  margin: 1rem auto 0 auto;
+  color: black;
+  background-color: #FB8044;
+}
+.text1 {
+  font-family: 'bookmania', serif;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  padding: 4rem 3rem;
+  margin: 1rem auto 0 auto;
+  color: black;
+  background-color: #A52714;
+}
+.text2 {
+  font-family: 'bookmania', serif;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  padding: 4rem 3rem;
+  margin: 1rem auto 0 auto;
+  color: black;
+  background-color: #DF71CC;
+}
+.text3 {
+  font-family: 'bookmania', serif;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  padding: 4rem 3rem;
+  margin: 1rem auto 0 auto;
+  color: black;
+  background-color: white;
+}
+.text4 {
+  font-family: 'bookmania', serif;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  padding: 4rem 3rem;
+  margin: 1rem auto 0 auto;
+  color: white;
+  background-color: #A2D7FF;
+}
+.text5 {
+  font-family: 'bookmania', serif;
+  font-size: 1.35rem;
+  line-height: 2.5rem;
+  padding: 4rem 3rem;
+  margin: 1rem auto 0 auto;
+  color: black;
+  background-color: #FAEB62;
+}
+
+#intro {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding: 1em;
+  /* border-top: 3px solid #FAEB62; */
+}
+#introp2 {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding: 1em;
+}
+#blockq1 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: #000;
+    color: #FAEB62;
+}
+
+#blockq2 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: #000;
+    color: #DF71CC;
+  }
+#blockq3 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding: 4rem 1.875rem;
+    margin: 1rem auto 0 auto;
+    background-color: black;
+    color: white;
+}
+
+.filmContainer {
+  /* background:  #FF7575; */
+}
+
+#Film {
+  margin: 1em;
+  color: #A52714;
+
+}
+#filmp1, #filmp2, #filmp3 {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  padding: 1em;
+  /* border: 5px solid #FF7575; */
+}
+
+#movieTitle {
+  font-size: 4.8em;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  text-align: center;
+}
+
+#starring {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 1em;
+}
+#trailer {
+  display:block;
+  margin: 0;
+  margin-top: 0em;
+  /* margin-bottom: 10em; */
+  padding: 0;
+  height: 20em;
+  width: 25em;
+
+}
+.stats {
+  display: none;
+  width: 25em;
+}
+.eugene {
+  display: block;
+  /* margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px; */
+}
+
+.johnny {
+  display: flex;
+  margin-left: 2em;
+}
+
+.figcap {
+  font-family: 'bookmania', serif;
+  font-size: .75rem;
+}
+#blockq4, #blockq5, #blockq6, #blockq7, #blockq8, #blockq13 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: black;
+    color: #A2D7FF;
+}
+ #blockq9 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: black;
+    color: #DF71CC;
+}
+#blockq10 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: black;
+    color: #A2D7FF;
+}
+#blockq11 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    background-color: black;
+    color: #A2D7FF;
+}
+#blockq12 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    margin-bottom: 1rem auto 0 auto;
+    background-color: black;
+    color: #A2D7FF;
+}
+#Parks {
+  margin: 1em;
+  color: 1em;
+  color: #A2D7FF;
+  margin-bottom: 0em;
+}
+#Parksheader {
+  font-size: 5.8em;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 10px;
+  text-align: center;
+
+}
+#alpine {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: 0em;
+  font-size: 2em;
+}
+#motor {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  /* margin-top: -3em; */
+  color: #FB8044;
+  font-size: 2em;
+  margin: -.5em;
+}
+#water {
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #DF71CC;
+  font-size: 2em;
+  margin: -.5em;
+  /* margin-top: -3em; */
+}
+#rides, #rides1, #Motorworld1, #Waterworld1, #Legacy1, #Motorworld, #Waterworld, #Legacy {
+  color: black;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1em;
+}
+#CFS {
+  font-family: 'gothic-open-shaded', sans-serif;
+    font-size: 2.35rem;
+    line-height: 2rem;
+    padding: 2rem 1rem;
+    margin: 1rem auto 0 auto;
+    color: #DF71CC;
+    text-align: center;
+}
+
+#Traghead {
+  background-color: black;
+  color: white;
+  font-size: 5.8em;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: .3em;
+  text-align: center;
+}
+#Trag, #Tragp2 {
+  color: white;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: -2em 2em 2em 2em;
+  padding-bottom: 2em;
+}
+
+#audiotitle {
+  color: white;
+  font-family: 'bookmania', serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding-top: -3em;
+  padding-bottom: 1em;
+}
+#audioclip {
+  margin: 0em 0em 3em 2.5em;
+
+}
+#blackbackdrop {
+  background-color: black;
+}
+
+#Legacyhead {
+  background-color: white;
+  color: #DF71CC;
+  font-size: 5.8em;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: .3em;
+  text-align: center;
+}
+#map {
+  display: none;
+}
+
+#waterbutton, #motorbutton, #alpinebutton {
+  display: none;
+}
+
+
+
+@media only screen and (min-width:360px) and (max-width:500px) {
+.background {
+  visibility: hidden;
+}
+
+.container {
+  padding-right: 0em;
+}
+
+}
+
+
+
+@media only screen and (min-width:501px) and (max-width:1919px) {
+*,* {
+  max-width: 48em;
+
+  position: relative;
+  align-content: center;
+}
+.Author {
+  position: relative;
+  top: 2.5em;
+  left: -4em;
+  z-index: 99;
+  text-align: center;
+}
+#backdrop {
+  max-width: 48em;
+  background-color: #000;
+}
+
+
+.openingvideo {
+  /* margin: auto; */
+  display: block;
+  visibility: visible;
+  max-width: 33em;
+  max-height: 22em;
+  right: 5em;
+  bottom: 1em;
+  /* right: 10em; */
+  /* right: 1em;
+  bottom: 7em;
+  /* margin-bottom: 4em; */
+}
+.bordercontainer {
+  max-width: 47em;
+  max-height: 49em;
+  top: 1em;
+  background-color: black;
+  margin-bottom: 1em;
+}
+
+.container, .topnav {
+  visibility: hidden;
+}
+#background {
+  visibility: hidden;
+}
+#intro, #introp2 {
+  color: white;
+  padding: 5em 4em 0em 4em;
+}
+#blockq1, #blockq2, #blockq3, #blockq4, #blockq5, #blockq6, #blockq7, #blockq8, #blockq9, #blockq10, #blockq11, #blockq12, #blockq13 {
+  margin: 0em 3em 0em 3em;
+
+}
+
+#blockq3 {
+  background-color: black;
+  color: #FAEB62;
+  /* font-size: 1em; */
+}
+
+#blockq12 {
+  color: #FB8044;
+}
+
+#blockq11 {
+  color: #DF71CC;
+}
+
+.TitlePart1 {
+  color: #DF71CC;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+  z-index: 99;
+  margin: auto;
+  display: block;
+  visibility: visible;
+  bottom: 14.5em;
+  text-align: center;
+  left: -.1em;
+}
+.TitlePart2 {
+  color: #FAEB62;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6.2em;
+  z-index: 99;
+  margin: auto;
+  display: block;
+  visibility: visible;
+  bottom: 5.5em;
+  left: -.1em;
+  text-align: center;
+}
+.TitlePart3 {
+  color: #FB8044;
+  font-family: 'gothic-open-shaded', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4em;
+  z-index: 99;
+  margin: auto;
+  display: flex;
+  visibility: visible;
+  bottom: 23em;
+  left: 0em;
+  text-align: center;
+}
+#Title {
+  display: none;
+  margin: auto;
+  font-size: 3em;
+  bottom: 15em;
+  color: #FAEB62;
+}
+
+
+.filmContainer {
+  /* background-color: black; */
+}
+#movieTitle {
+  color: #A52714;
+  background-color: #000;
+  font-size: 6em;
+
+
+}
+#starring {
+  background-color: #000;
+  color: #fff;
+  font-size: 1em;
+
+}
+#trailer {
+  display: block;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+}
+#blockq4, #blockq5, #blockq6, #blockq7, #blockq8 {
+  font-family: 'bookmania', serif;
+    font-size: 1.35rem;
+    line-height: 2rem;
+    margin: 1rem auto 0 auto;
+    background-color: #000;
+    color: #A52714;
+}
+
+
+#audiotitle {
+  margin-top: 2em;
+  text-align: center;
+}
+
+#audioclip {
+  position: relative;
+  right: 1.5em;
+}
+}
+@media only screen and (min-width:600px) and (max-width:767px) {
+.openingvideo {
+  max-width: 42em;
+  max-height: 27em;
+  right: 9.5em;
+}
+.Author {
+  top: 6em;
+  margin-bottom: 3em;
+}
+#map, #waterbutton, #motorbutton, #alpinebutton {
+  display: block;
+
+}
+
+#waterbutton {
+  display: block;
+  font-size: 1em;
+  background-color: #162080;
+  color: white;
+  opacity: .7;
+  z-index: 99;
+  position: relative;
+  bottom: 30em;
+  left: 7em;
+  height: 10em;
+  width: 10em;
+  font-weight: 800;
+  border-radius: 50%;
+  border: none;
+
+}
+#motorbutton {
+  display: block;
+background-color: #FB8044;
+opacity: .7;
+z-index: 99;
+position: relative;
+bottom: 35em;
+right: 9em;
+height: 10em;
+width: 10em;
+font-weight: 800;
+border-radius: 50%;
+border: none;
+
+}
+#alpinebutton {
+  display: block;
+background-color: #A2D7FF;
+opacity: .7;
+z-index: 99;
+position: relative;
+bottom: 35em;
+height: 10em;
+width: 10em;
+font-weight: 800;
+border-radius: 50%;
+border: none;
+}
+
+#alpinebutton:hover {
+  opacity: .9;
+  color: #162080;
+  box-shadow: 0 0 10px 5px #162080;
+  /* font-weight: 800;
+  font-size: 110%; */
+  background-color: white;
+}
+
+#motorbutton:hover {
+  opacity: .9;
+  color: black;
+  box-shadow: 0 0 10px 5px black;
+  /* font-weight: 800;
+  font-size: 110%; */
+  background-color: #FB8044;
+}
+#waterbutton:hover {
+  opacity: .9;
+  color: #162080;
+  box-shadow: 0 0 10px 5px #162080;
+  /* font-weight: 800;
+  font-size: 110%; */
+  background-color: #DF71CC;
+}
+
+
+
+}
+@media only screen and (min-width:768px) and (max-width:1920px) {
+.vidcontainer {
+  width: 768px;
+  height: 480px;
+}
+.openingvideo {
+  max-width: 48em;
+  max-height: 40em;
+  right: 12.5em;
+  top: .5em;
+
+}
+.TitlePart2 {
+/* max-width: 48em;/ */
+  width: 14em;
+  /* position: absolute; */
+  left: -5.15em;
+/* height: 1em;
+right: 15.2em; */
+}
+
+
+#map {
+    display: block;
+  margin-top: 2em;
+
+}
+
+#alpinebutton {
+  display: block;
+  background-color: #A2D7FF;
+  opacity: .7;
+  z-index: 99;
+  position: relative;
+  bottom: 45em;
+  height: 13em;
+  width: 13em;
+  font-weight: 800;
+  border-radius: 50%;
+  border: none;
+}
+
+#alpinebutton:hover {
+  opacity: .9;
+  color: #162080;
+  box-shadow: 0 0 10px 5px #162080;
+  /* font-weight: 800;
+  font-size: 110%; */
+  background-color: white;
+}
+
+#motorbutton:hover {
+  opacity: .9;
+  color: black;
+  box-shadow: 0 0 10px 5px black;
+  /* font-weight: 800;
+  font-size: 110%; */
+  background-color: #FB8044;
+}
+#waterbutton:hover {
+  opacity: .9;
+  color: #162080;
+  box-shadow: 0 0 10px 5px #162080;
+  /* font-weight: 800;
+  font-size: 110%; */
+  background-color: #DF71CC;
+}
+
+#motorbutton {
+    display: block;
+  background-color: #FB8044;
+  opacity: .7;
+  z-index: 99;
+  position: relative;
+  bottom: 45em;
+  right: 10em;
+  height: 13em;
+  width: 13em;
+  font-weight: 800;
+  border-radius: 50%;
+  border: none;
+}
+
+#waterbutton {
+  display: block;
+  font-size: 1em;
+  background-color: #162080;
+  color: white;
+  opacity: .7;
+  z-index: 99;
+  position: relative;
+  bottom: 40em;
+  left: 7em;
+  height: 13em;
+  width: 13em;
+  font-weight: 800;
+  border-radius: 50%;
+  border: none;
+}
+@media only screen and (min-width:1520px) {
+
+html {
+  left: 59.4em;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+#backdrop {
+  top: 57.3em;
+  min-width: 95em;
+  right: 23.5em;
+  height: 200em;
+}
+
+.openingvideo {
+  position: absolute;
+  background-size: cover;
+  min-width: 95em;
+  min-height: 8.5%;
+  bottom: 878.4em;
+  right: -23.5em;
+
+}
+
+.TitlePart1 {
+  bottom: 4.5em;
+    font-size: 8em;
+    z-index: 99;
+    left: -2em;
+}
+.TitlePart2 {
+  font-size: 13em;
+  top: -2.5em;
+  z-index: 99;
+  left: -6.1em;
+}
+.TitlePart3 {
+  min-width: 28em;
+  font-size: 3em;
+  bottom: 10em;
+   left: -9em;
+}
+#intro {
+  top: -13em;
+
+}
+.Author {
+  top: -10em;
+}
+#introp2{
+  top: -16em;
+}
+#blockq2 {
+  top: -11em;
+}
+#Film {
+top: -7em;
+font-size: 2em;
+min-width: 43em;
+right: 10.5em;
+}
+#trailer {
+  min-width: 138%;
+  min-height: 31%;
+  right: 9em;
+  bottom:15em;
+}
+.slideshow-container1 {
+  top: -15em;
+}
+.trailerdots {
+  top: 52em;
+}
+.johnny, #filmp2, {
+  top: 56em;
+
+}
+#filmp1 {
+  top: 56em;
+  left: -21em;
+  max-width: 45em;
+}
+#filmp3 {
+  right:21em;
+  top:-3em;
+  max-width: 45em;
+}
+#blockq3 {
+  left: 19em;
+  max-width: 40em;
+  top: 0;
+}
+#Parksheader {
+  font-size: 10em;
+}
+
+#Parks {
+  top: -25em;
+}
+.johnny {
+  display: block;
+  left: 28em;
+  top: 31.75em;
+}
+#filmp2 {
+  left:-21em;
+  top: -24em;
+  max-width: 45em;
+}
+#alpine {
+  top: -9em;
+  font-size: 3em;
+
+}
+#rides {
+left: 24em;
+max-width: 40em;
+bottom: 80em;
+}
+#rides1 {
+  left: 24em;
+  max-width: 40em;
+  bottom: 80em;
+}
+.alpineimg {
+  right: 22em;
+  top: -49em;
+}
+#blockq10 {
+  left: 18em;
+  bottom: 59em;
+}
+#motor {
+bottom: 24em;
+font-size: 3em;
+}
+#Motorworld {
+  bottom: 103em;
+  right: 26em;
+  max-width: 40em;
+}
+.motorimg{
+  bottom: 66em;
+    left: 21em;
+}
+#blockq12 {
+  bottom: 76em;
+  right: 19em;
+}
+#Motorworld1 {
+  bottom: 102em;
+  max-width: 40em;
+  right: 26em;
+
+}
+#water {
+  bottom: 32em;
+  font-size: 3em;
+}
+.waterimage {
+  bottom: 90em;
+  right: 25em;
+  width: 80%;
+}
+#Waterworld {
+  bottom: 121em;
+  left: 20em;
+  max-width: 50em;
+}
+#Waterworld1 {
+  bottom: 135em;
+  left: 18.5em;
+  max-width: 45em;
+}
+
+#blockq11 {
+  bottom: 95em;
+  right: 13.5em;
+  max-width: 20em;
+}
+#CFS {
+  bottom: 65em;
+  right: 10em;
+}
+#blackbackdrop {
+  min-width: 95em;
+  right: 24em;
+  bottom: 140em;
+}
+.slideshow-container {
+  top: .25em;
+}
+#Trag, #Tragp2 {
+  left:22em;
+
+}
+#Legacyhead {
+  bottom: 16em;
+    font-size: 9em;
+}
+#Legacy {
+  bottom: 145em;
+}
+#blockq9 {
+  bottom: 107em;
+}
+#Legacy1 {
+  bottom: 144em;
+}
+
+}
