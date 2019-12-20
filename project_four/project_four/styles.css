@@ -672,6 +672,10 @@ html {
   overflow-x: hidden;
 }
 
+.mobileback {
+  height: 320px;
+}
+
 .Author {
   position: relative;
   top: 2.5em;
@@ -1027,11 +1031,11 @@ right: 15.2em; */
 @media only screen and (min-width:1520px) {
 
 html {
-  left: 43.5em;
+  /* left: 43.5em; */
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #backdrop {
