@@ -664,10 +664,14 @@ html {
 @media only screen and (min-width:501px) and (max-width:1919px) {
 *,* {
   max-width: 48em;
-
   position: relative;
   align-content: center;
 }
+
+html {
+  overflow-x: hidden;
+}
+
 .Author {
   position: relative;
   top: 2.5em;
@@ -675,6 +679,7 @@ html {
   z-index: 99;
   text-align: center;
 }
+
 #backdrop {
   max-width: 48em;
   background-color: #000;
@@ -683,12 +688,10 @@ html {
 
 .openingvideo {
   /* margin: auto; */
+  background-color: black;
   display: block;
   visibility: visible;
-  max-width: 33em;
-  max-height: 22em;
-  right: 5em;
-  bottom: 1em;
+  max-width: 100%;
   /* right: 10em; */
   /* right: 1em;
   bottom: 7em;
@@ -826,9 +829,9 @@ html {
 }
 @media only screen and (min-width:600px) and (max-width:767px) {
 .openingvideo {
-  max-width: 42em;
+  /* max-width: 42em;
   max-height: 27em;
-  right: 9.5em;
+  right: 9.5em; */
 }
 .Author {
   top: 6em;
@@ -915,15 +918,23 @@ border: none;
 
 }
 @media only screen and (min-width:768px) and (max-width:1920px) {
+
+html {
+  overflow-x: hidden;
+}
+
 .vidcontainer {
   width: 768px;
   height: 480px;
 }
 .openingvideo {
-  max-width: 48em;
-  max-height: 40em;
-  right: 12.5em;
-  top: .5em;
+  max-width: 100%;
+  max-height: 103%;
+  right: 0;
+  top: 1px;
+  width: auto;
+  height: auto;
+  border: 24px solid black;
 
 }
 .TitlePart2 {
@@ -1016,7 +1027,7 @@ right: 15.2em; */
 @media only screen and (min-width:1520px) {
 
 html {
-  left: 59.4em;
+  left: 43.4em;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -1224,6 +1235,10 @@ font-size: 3em;
 }
 #Legacy1 {
   bottom: 144em;
+}
+
+.mySlides1 {
+  bottom: 17em;
 }
 
 }
